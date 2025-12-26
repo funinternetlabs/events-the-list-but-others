@@ -39,9 +39,9 @@ title: Home
     {% for event in events %}
       {% if event.start_datetime == '9999-12-31' %}
         <li>
-          * [<a href="/by-venue/#{{ event.venue_id }}">{{ event.venue_id }}</a>] 
+          * [<a href="{{ ('/by-venue/#' + event.venue_id) | url }}">{{ event.venue_id }}</a>] 
           <a href="{{ event.source_url }}" target="_blank"><strong>{{ event.title }}</strong></a> 
-          [{% for cat in event.categories %}<a href="/by-category/#{{ cat | slugify }}">{{ cat }}</a>{% if not loop.last %}, {% endif %}{% endfor %}]
+          [{% for cat in event.categories %}<a href="{{ ('/by-category/#' + (cat | slugify)) | url }}">{{ cat }}</a>{% if not loop.last %}, {% endif %}{% endfor %}]
           ({{ event.age_restriction }}) - {{ event.price_display }}
         </li>
       {% endif %}
