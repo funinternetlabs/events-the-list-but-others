@@ -2,7 +2,7 @@ import { DateTime } from 'luxon';
 
 export default function (eleventyConfig) {
   // Pass through CSS
-  eleventyConfig.addPassthroughCopy('css');
+  eleventyConfig.addPassthroughCopy({ 'src/css': 'css' });
 
   // Date Filter
   eleventyConfig.addFilter('readableDate', (dateObj) => {
