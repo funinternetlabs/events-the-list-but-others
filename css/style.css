@@ -25,7 +25,8 @@ body.light-mode {
 body.retro {
   background-color: var(--bg-color);
   color: var(--text-color);
-  font-family: "Courier New", Courier, monospace;
+  /* font-family: "Courier New", Courier, monospace; */
+  font-size: 1.25rem;
   margin: 0;
   padding: 20px;
   line-height: 1.4;
