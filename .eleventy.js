@@ -73,6 +73,7 @@ export default function (eleventyConfig) {
       data: '_data'
     },
     templateFormats: ['njk', 'md', 'html'],
-    htmlTemplateEngine: 'njk'
+    htmlTemplateEngine: 'njk',
+    pathPrefix: process.env.ELEVENTY_PATH_PREFIX || '/'
   };
 }

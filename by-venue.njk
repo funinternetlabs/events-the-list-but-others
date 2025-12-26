@@ -16,7 +16,7 @@ title: Events By Venue
         <li>
           * [{{ event.start_datetime | readableDate }}] 
           <a href="{{ event.source_url }}" target="_blank"><strong>{{ event.title }}</strong></a> 
-          [{% for cat in event.categories %}<a href="/by-category/#{{ cat | slugify }}">{{ cat }}</a>{% if not loop.last %}, {% endif %}{% endfor %}]
+          [{% for cat in event.categories %}<a href="{{ ('/by-category/#' + (cat | slugify)) | url }}">{{ cat }}</a>{% if not loop.last %}, {% endif %}{% endfor %}]
           ({{ event.age_restriction }}) - {{ event.price_display }}
         </li>
       {% endfor %}

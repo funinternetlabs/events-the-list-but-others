@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title or "Portland Nerd Events" }} - The List</title>
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
 </head>
 <body class="retro">
   <header>
@@ -17,10 +17,10 @@
     </pre></h1>
     <p>PORTLAND NERD EVENTS DIRECTORY</p>
     <nav>
-      <a href="/">[ HOME ]</a>
-      <a href="/by-date/">[ BY DATE ]</a>
-      <a href="/by-venue/">[ BY VENUE ]</a>
-      <a href="/by-category/">[ BY CATEGORY ]</a>
+      <a href="{{ '/' | url }}">[ HOME ]</a>
+      <a href="{{ '/by-date/' | url }}">[ BY DATE ]</a>
+      <a href="{{ '/by-venue/' | url }}">[ BY VENUE ]</a>
+      <a href="{{ '/by-category/' | url }}">[ BY CATEGORY ]</a>
       <button id="theme-toggle" style="background:none; border:1px solid var(--border-color); color:var(--text-color); cursor:pointer; font-family:inherit; padding: 2px 5px;">[ TOGGLE THEME ]</button>
     </nav>
   </header>
