@@ -21,12 +21,29 @@
       <a href="/by-date/">[ BY DATE ]</a>
       <a href="/by-venue/">[ BY VENUE ]</a>
       <a href="/by-category/">[ BY CATEGORY ]</a>
+      <button id="theme-toggle" style="background:none; border:1px solid var(--border-color); color:var(--text-color); cursor:pointer; font-family:inherit; padding: 2px 5px;">[ TOGGLE THEME ]</button>
     </nav>
   </header>
 
   <main>
     {{ content | safe }}
   </main>
+
+  <script>
+    const toggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    // Check for saved theme
+    if (localStorage.getItem('theme') === 'light') {
+      body.classList.add('light-mode');
+    }
+
+    toggle.addEventListener('click', () => {
+      body.classList.toggle('light-mode');
+      const isLight = body.classList.contains('light-mode');
+      localStorage.setItem('theme', isLight ? 'light' : 'dark');
+    });
+  </script>
 
   <footer>
     <hr>

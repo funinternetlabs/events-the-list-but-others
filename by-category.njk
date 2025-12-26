@@ -9,14 +9,15 @@ title: Events By Category
 {% set categoryGroups = events | groupByCategory %}
 
 {% for group in categoryGroups %}
-  <section class="category-group">
+  <section class="category-group" id="{{ group.category | slugify }}">
     <h3>{{ group.category }}</h3>
     <ul class="event-list">
       {% for event in group.events %}
         <li>
-          * [{{ event.start_datetime | readableDate }}] [{{ event.venue_id }}] <strong>{{ event.title }}</strong> 
-          ({{ event.age_restriction }}) - {{ event.price_display }} 
-          <a href="{{ event.source_url }}" target="_blank">(source)</a>
+          * [{{ event.start_datetime | readableDate }}] 
+          [<a href="/by-venue/#{{ event.venue_id }}">{{ event.venue_id }}</a>] 
+          <a href="{{ event.source_url }}" target="_blank"><strong>{{ event.title }}</strong></a> 
+          ({{ event.age_restriction }}) - {{ event.price_display }}
         </li>
       {% endfor %}
     </ul>

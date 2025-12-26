@@ -10,6 +10,17 @@ export default function (eleventyConfig) {
     return DateTime.fromISO(dateObj).toLocaleString(DateTime.DATE_FULL);
   });
 
+  // Slugify Filter
+  eleventyConfig.addFilter('slugify', (str) => {
+    if (!str) return '';
+    return str
+      .toLowerCase()
+      .trim()
+      .replace(/[^\w\s-]/g, '')
+      .replace(/[\s_-]+/g, '-')
+      .replace(/^-+|-+$/g, '');
+  });
+
   // Group by Date Filter
   eleventyConfig.addFilter('groupByDate', (events) => {
     const groups = {};

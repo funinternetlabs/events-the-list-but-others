@@ -14,10 +14,10 @@ title: Events By Date
     <ul class="event-list">
       {% for event in group.events %}
         <li>
-          * [{{ event.venue_id }}] <strong>{{ event.title }}</strong> 
-          {% if event.categories %} [{{ event.categories | join(', ') }}] {% endif %}
-          ({{ event.age_restriction }}) - {{ event.price_display }} 
-          <a href="{{ event.source_url }}" target="_blank">(source)</a>
+          * [<a href="/by-venue/#{{ event.venue_id }}">{{ event.venue_id }}</a>] 
+          <a href="{{ event.source_url }}" target="_blank"><strong>{{ event.title }}</strong></a> 
+          [{% for cat in event.categories %}<a href="/by-category/#{{ cat | slugify }}">{{ cat }}</a>{% if not loop.last %}, {% endif %}{% endfor %}]
+          ({{ event.age_restriction }}) - {{ event.price_display }}
         </li>
       {% endfor %}
     </ul>

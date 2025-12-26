@@ -8,13 +8,29 @@ title: Home
   <p>Anime | Comics | Tabletop | Video Games | Tech | General</p>
 </div>
 
-<div class="main-menu">
-  <h2>SELECT A VIEW:</h2>
-  <ul>
-    <li><a href="/by-date/">[ 1 ] EVENTS BY DATE</a></li>
-    <li><a href="/by-venue/">[ 2 ] EVENTS BY VENUE</a></li>
-    <li><a href="/by-category/">[ 3 ] EVENTS BY CATEGORY</a></li>
-  </ul>
+<div class="chronological-section">
+  <h2>UPCOMING EVENTS BY DATE</h2>
+  <hr>
+
+  {% set dateGroups = events | groupByDate %}
+
+  {% for group in dateGroups %}
+    <section class="date-group">
+      <h3>{{ group.date | readableDate }}</h3>
+      <ul class="event-list">
+        {% for event in group.events %}
+          <li>
+            * [<a href="/by-venue/#{{ event.venue_id }}">{{ event.venue_id }}</a>] 
+            <a href="{{ event.source_url }}" target="_blank"><strong>{{ event.title }}</strong></a> 
+            [{% for cat in event.categories %}<a href="/by-category/#{{ cat | slugify }}">{{ cat }}</a>{% if not loop.last %}, {% endif %}{% endfor %}]
+            ({{ event.age_restriction }}) - {{ event.price_display }}
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% else %}
+    <p>No upcoming events found.</p>
+  {% endfor %}
 </div>
 
 <div class="ongoing-section">
@@ -23,9 +39,10 @@ title: Home
     {% for event in events %}
       {% if event.start_datetime == '9999-12-31' %}
         <li>
-          * [{{ event.venue_id }}] <strong>{{ event.title }}</strong> 
-          ({{ event.age_restriction }}) - {{ event.price_display }} 
-          <a href="{{ event.source_url }}" target="_blank">(source)</a>
+          * [<a href="/by-venue/#{{ event.venue_id }}">{{ event.venue_id }}</a>] 
+          <a href="{{ event.source_url }}" target="_blank"><strong>{{ event.title }}</strong></a> 
+          [{% for cat in event.categories %}<a href="/by-category/#{{ cat | slugify }}">{{ cat }}</a>{% if not loop.last %}, {% endif %}{% endfor %}]
+          ({{ event.age_restriction }}) - {{ event.price_display }}
         </li>
       {% endif %}
     {% endfor %}
