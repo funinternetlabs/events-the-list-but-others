@@ -1,0 +1,114 @@
+:root {
+  --bg-color: #000000;
+  --text-color: #00FF00; /* Classic Terminal Green */
+  --link-color: #00FFFF; /* Cyan */
+  --header-color: #FF00FF; /* Magenta */
+  --border-color: #FFFFFF;
+  --accent-color: #FFFF00; /* Yellow */
+  --dev-note-bg: #111;
+  --dev-note-border: #666;
+  --footer-text: #CCCCCC;
+}
+
+body.light-mode {
+  --bg-color: #FFFFFF;
+  --text-color: #000000;
+  --link-color: #0000FF;
+  --header-color: #CC00CC;
+  --border-color: #000000;
+  --accent-color: #CC6600;
+  --dev-note-bg: #F0F0F0;
+  --dev-note-border: #999;
+  --footer-text: #333333;
+}
+
+body.retro {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.4;
+}
+
+header {
+  border-bottom: 2px solid var(--border-color);
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+header h1 pre {
+  color: var(--header-color);
+  margin: 0;
+  line-height: 1;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  background-color: var(--link-color);
+  color: var(--bg-color);
+}
+
+h2, h3 {
+  border-bottom: 1px solid var(--border-color);
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.event-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.event-list li {
+  margin-bottom: 8px;
+}
+
+.event-list strong {
+  color: var(--accent-color);
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 0.8em;
+  color: var(--footer-text);
+}
+
+.dev-notes {
+  background-color: var(--dev-note-bg);
+  padding: 10px;
+  border: 1px dashed var(--dev-note-border);
+  margin: 20px 0;
+}
+
+.dev-notes h3 {
+  margin-top: 0;
+  font-size: 1em;
+}
+
+.dev-notes pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+@media (max-width: 600px) {
+  body.retro {
+    padding: 10px;
+  }
+  header h1 pre {
+    font-size: 8px;
+  }
+}
