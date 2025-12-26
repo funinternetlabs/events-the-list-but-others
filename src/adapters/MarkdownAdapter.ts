@@ -6,7 +6,7 @@ import { slugify, generateEventId, normalizePrice, inferCategory } from '../util
 
 export class MarkdownAdapter implements BaseAdapter {
   name = 'MarkdownAdapter';
-  sourceUrl = 'docs/rk-events.md';
+  sourceUrl = 'docs/events/pdx-jan-2026-events.md';
 
   async fetchAndNormalize(): Promise<{ events: Event[]; venues: Venue[] }> {
     const filePath = path.resolve(this.sourceUrl);

@@ -22,11 +22,11 @@ A high-performance, retro-inspired static directory for nerd events in Portland.
    ```bash
    npm run scrape
    ```
-   _Parses `docs/rk-events.md` and generates JSON in `_data/`_
+   _Parses `docs/events/pdx-jan-2026-events.md` and generates JSON in `_data/`_
 
 ## 📁 Project Structure
 
-- `docs/rk-events.md`: **Source of Truth**. Edit this file to add/update events.
+- `docs/events/pdx-jan-2026-events.md`: **Source of Truth**. Edit this file to add/update events.
 - `src/`: Core logic and adapters.
   - `adapters/MarkdownAdapter.ts`: The parser logic for the event markdown.
   - `utils/normalize.ts`: Data cleaning and ID generation.

@@ -15,7 +15,7 @@ async function main() {
     const { events, venues } = await markdownAdapter.fetchAndNormalize();
 
     // 3. Extract Dev Notes
-    const rkEventsPath = path.resolve('docs/rk-events.md');
+    const rkEventsPath = path.resolve('docs/events/pdx-jan-2026-events.md'); // TODO: Move this to a config
     const rkEventsContent = await fs.readFile(rkEventsPath, 'utf-8');
     const devNotesMatch = rkEventsContent.match(/## Dev Notes([\s\S]*)$/);
     const devNotes = devNotesMatch ? devNotesMatch[1].trim() : '';

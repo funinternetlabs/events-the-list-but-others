@@ -2,29 +2,30 @@
 
 This document outlines the phased development of the Nerd List Site Generator, transitioning from a local Boulder MVP to a scaleable, multi-city event platform.
 
-## Phase 1: Core Architecture & Boulder MVP
+## Phase 1: Core Architecture & Portland MVP [x]
 
 **Goal:** Establish the pipeline and a working prototype for a single city.
 
-- [ ] **Infrastructure Setup**
+- [x] **Infrastructure Setup**
   - [x] TypeScript project structure.
   - [x] Canonical data models (Event, Venue).
-  - [ ] Eleventy setup with Nunjucks templates.
-  - [ ] Base adapter architecture for extensibility.
-- [ ] **MVP Pipeline (The "Adapter" Engine)**
-  - [ ] Basic normalization logic (Date/Time formatting, price normalization).
-  - [ ] Markdown Adapter (rk-events.md)
-  - [ ] Manual override system (protecting hand-edited data).
-- [ ] **Content System**
-  - [ ] Organize events into a canonical store.
-  - [ ] Filter events (only events from today forward) for Eleventy's data files.
-- [ ] **Eleventy Configuration**
-  - [ ] Configure data directory to consume canonical JSON.
-  - [ ] Create Nunjucks templates for "By Date", "By Venue", and "By Category" pages.
-  - [ ] Setup collections and filters for event grouping/sorting.
-- [ ] **Minimalist Retro Frontend**
-  - [ ] 90s-inspired CSS (monospaced, high contrast, mobile-friendly).
-  - [ ] Home page + 3 core list views.
+  - [x] Eleventy setup with Nunjucks templates.
+  - [x] Base adapter architecture for extensibility.
+- [x] **MVP Pipeline (The "Adapter" Engine)**
+  - [x] Basic normalization logic (Date/Time formatting, price normalization).
+  - [x] Markdown Adapter (pdx-jan-2026-events.md)
+  - [x] Manual override system (protecting hand-edited data).
+- [x] **Content System**
+  - [x] Organize events into a canonical store.
+  - [x] Filter events (only events from today forward) for Eleventy's data files.
+- [x] **Eleventy Configuration**
+  - [x] Configure data directory to consume canonical JSON.
+  - [x] Create Nunjucks templates for "By Date", "By Venue", and "By Category" pages.
+  - [x] Setup collections and filters for event grouping/sorting.
+- [x] **Minimalist Retro Frontend**
+  - [x] 90s-inspired CSS (monospaced, high contrast, mobile-friendly).
+  - [x] Home page + 3 core list views.
+  - [x] Dark/Light mode theme toggle.
 
 ## Phase 2: Refinement & Admin Tools
 
@@ -37,8 +38,8 @@ This document outlines the phased development of the Nerd List Site Generator, t
 - [ ] **Pipeline Robustness**
   - [ ] Error reporting for broken scrapers.
   - [ ] Duplicate detection logic.
-- [ ] **Deployment**
-  - [ ] Deploy to Github pages
+- [x] **Deployment**
+  - [x] Deploy to Github pages via GitHub Actions.
 
 ## Phase 3: Scaling & Multi-City Support
 
@@ -56,8 +57,8 @@ This document outlines the phased development of the Nerd List Site Generator, t
 - [ ] **Enhanced Discovery**
   - [ ] Simple search (client-side).
   - [ ] Archive/Historical event views.
-- [ ] **Deployment Automation**
-  - [ ] Automated daily build/scrape/deploy cycle (GitHub Actions or similar).
+- [x] **Deployment Automation**
+  - [x] Automated build/scrape/deploy cycle on push (GitHub Actions).
 
 ## Phase 4: Long-Term Vision
 
