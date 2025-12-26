@@ -1,0 +1,33 @@
+---
+layout: layout.njk
+title: Home
+---
+
+<div class="home-hero">
+  <p>Portland's most comprehensive and fast directory for nerd events.</p>
+  <p>Anime | Comics | Tabletop | Video Games | Tech | General</p>
+</div>
+
+<div class="main-menu">
+  <h2>SELECT A VIEW:</h2>
+  <ul>
+    <li><a href="/by-date/">[ 1 ] EVENTS BY DATE</a></li>
+    <li><a href="/by-venue/">[ 2 ] EVENTS BY VENUE</a></li>
+    <li><a href="/by-category/">[ 3 ] EVENTS BY CATEGORY</a></li>
+  </ul>
+</div>
+
+<div class="ongoing-section">
+  <h2>ONGOING ACTIVITIES</h2>
+  <ul class="event-list">
+    {% for event in events %}
+      {% if event.start_datetime == '9999-12-31' %}
+        <li>
+          * [{{ event.venue_id }}] <strong>{{ event.title }}</strong> 
+          ({{ event.age_restriction }}) - {{ event.price_display }} 
+          <a href="{{ event.source_url }}" target="_blank">(source)</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

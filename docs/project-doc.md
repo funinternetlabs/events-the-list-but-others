@@ -393,7 +393,7 @@ This project is **product-simple** but **pipeline-heavy**. Key complexities:
 
 ## **14. Notes**
 
-- City = **Boulder** for MVP, but the system should be city-agnostic in design.
+- City = **Portland** for MVP, but the system should be city-agnostic in design.
 - Exactly six categories:
 
   - Anime

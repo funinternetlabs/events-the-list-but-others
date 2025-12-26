@@ -1,0 +1,26 @@
+---
+layout: layout.njk
+title: Events By Category
+---
+
+<h2>UPCOMING EVENTS BY CATEGORY</h2>
+<hr>
+
+{% set categoryGroups = events | groupByCategory %}
+
+{% for group in categoryGroups %}
+  <section class="category-group">
+    <h3>{{ group.category }}</h3>
+    <ul class="event-list">
+      {% for event in group.events %}
+        <li>
+          * [{{ event.start_datetime | readableDate }}] [{{ event.venue_id }}] <strong>{{ event.title }}</strong> 
+          ({{ event.age_restriction }}) - {{ event.price_display }} 
+          <a href="{{ event.source_url }}" target="_blank">(source)</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+{% else %}
+  <p>No categories with upcoming events found.</p>
+{% endfor %}

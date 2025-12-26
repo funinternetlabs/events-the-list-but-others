@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title or "Portland Nerd Events" }} - The List</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="retro">
+  <header>
+    <h1><pre>
+  _   _               _   _     _     _   
+ | \ | | ___ _ __ __| | | |   (_)___| |_ 
+ |  \| |/ _ \ '__/ _` | | |   | / __| __|
+ | |\  |  __/ | | (_| | | |___| \__ \ |_ 
+ |_| \_|\___|_|  \__,_| |_____|_|___/\__|
+    </pre></h1>
+    <p>PORTLAND NERD EVENTS DIRECTORY</p>
+    <nav>
+      <a href="/">[ HOME ]</a>
+      <a href="/by-date/">[ BY DATE ]</a>
+      <a href="/by-venue/">[ BY VENUE ]</a>
+      <a href="/by-category/">[ BY CATEGORY ]</a>
+    </nav>
+  </header>
+
+  <main>
+    {{ content | safe }}
+  </main>
+
+  <footer>
+    <hr>
+    <p>LAST UPDATED: {{ site.lastUpdated | readableDate }}</p>
+    <div class="dev-notes">
+      <h3>DEV NOTES</h3>
+      <pre>{{ site.devNotes }}</pre>
+    </div>
+    <p>&copy; 1996-2026 NERD LIST SITE GENERATOR</p>
+  </footer>
+</body>
+</html>

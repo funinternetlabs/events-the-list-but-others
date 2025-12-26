@@ -1,0 +1,8 @@
+node_modules/
+docs/
+src/
+scripts/
+_site/
+package.json
+package-lock.json
+tsconfig.json

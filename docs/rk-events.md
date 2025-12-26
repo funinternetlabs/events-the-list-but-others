@@ -1,260 +1,736 @@
 # WEEK 1 - Dec 28 - Jan 4
 
-## Sun, Dec 28th
+## Sun, Dec 28, 2025
 
-Peacock Lane (Last day is the 31st)
-https://everout.com/portland/events/peacock-lane/e221984/
+### Peacock Lane
 
-Starkwood Holiday Lights (last day is 31st)
-https://everout.com/portland/events/starkwood-free-holiday-lights-spectacular/e225075/
+- Venue: Peacock Lane
+- Time: 6-11pm
+- Price: free
+- Age: all ages
+- Category: General
+- URL: https://everout.com/portland/events/peacock-lane/e221984/
+- Notes: Last day is the 31st
 
-## Mon, Dec 29th
+### Starkwood Holiday Lights
 
-Grotto Lights (Last day is the 30th - $16 a person)
-https://aftontickets.com/event/buyticket/zp9kdpd4x5/christmas-festival-of-lights/2025-12-29
+- Venue: East Portland
+- Time: 5-11pm
+- Price: Free
+- Age: all ages
+- Category: General
+- URL: https://everout.com/portland/events/starkwood-free-holiday-lights-spectacular/e225075/
+- Notes: last day is 31st
 
-Oregon Gardens (Last day is the 31st - $15 a person)
-https://www.silvertonchristmasmarket.com/tickets
+## Mon, Dec 29, 2025
 
-The Gift Show at Alberta Street Gallery AKA walk around Alberta (Last day)
-https://everout.com/portland/events/the-gift-show-at-alberta-street-gallery/e223232/
+### Grotto Lights
 
-Artifacts Holiday -- AKA Walk through Division (Last day Jan 4th - )
-https://everout.com/portland/events/artifacts-holiday-marketplace/e221812/
+- Venue: The Grotto
+- Time: 5-10pm
+- Price: $17 a person
+- Age: all ages
+- Category: General
+- URL: https://aftontickets.com/event/buyticket/zp9kdpd4x5/christmas-festival-of-lights/2025-12-29
+- Notes: Last day is the 30th
 
-## Tues, Dec 30th
+### Oregon Gardens
 
-## Weds, Dec 31th
+- Venue: Oregon Gardens
+- Time: 5pm-9pm
+- Price: $16.20 a person ($20 at the door)
+- Age: all ages
+- Category: General
+- URL: https://www.silvertonchristmasmarket.com/tickets
+- Notes: last day is the 31st
 
-John Mulaney
+### The Gift Show at Alberta Street Gallery
 
-## Thurs, Jan 1st
+- Venue: Alberta Neighborhood
+- Time: 11am-7pm
+- Price: free
+- Age: all ages
+- Category: General
+- URL: https://everout.com/portland/events/the-gift-show-at-alberta-street-gallery/e223232/
+- Notes: AKA walk around Alberta
 
-NYE Bike (Membership required)
-https://www.thestreettrust.org/programs/events/new-years-day-ride/
+### Artifacts Holiday
 
-Family Friendly Q Party
-https://everout.com/portland/events/family-friend-noon-years-day-party/e226167/
+- Venue: Division
+- Time: 11am-7pm
+- Price: free
+- Age: all ages
+- Category: General
+- URL: https://everout.com/portland/events/artifacts-holiday-marketplace/e221812/
+- Notes: AKA Walk through Division
 
-## Jan 2
+## Tues, Dec 30, 2025
 
-Art walk
+## Weds, Dec 31, 2025
 
-## Weekend, jan 3rd - 4th
+### John Mulaney
 
-Dry January Fest
-https://everout.com/portland/events/dry-january-fest/e222842/
+- Venue: Moda Center
+- Time: 8pm
+- Price: $70 per person
+- Age: all ages
+- Category: General
+- URL: https://www.ticketmaster.com/john-mulaney-with-very-special-guest-portland-oregon-12-31-2025/event/0F00632C9C9D1D61
+- Notes:
 
-Game swap
-https://www.pdxpipeline.com/pdx-game-swap-rae-loft-01-2026/
+## Thurs, Jan 1, 2026
 
-January 4: Free First Sundays @ The Japanese American Museum of Oregon | 11AM-4PM (more info)
+### NYE Bike
+
+- Venue: Portland
+- Time: 12pm - 5pm
+- Price: Membership required - Sliding scale
+- Age: all ages
+- Category: General
+- URL: https://www.thestreettrust.org/programs/events/new-years-day-ride/
+- Notes: Meet downtown at Cartblocks
+
+### Family Friendly Q Party
+
+- Venue: Mississippi Ave
+- Time: 11am - 1pm
+- Price: $0-15 (sliding scale)
+- Age: all ages
+- Category: General
+- URL: https://everout.com/portland/events/family-friend-noon-years-day-party/e226167/
+- Notes:
+
+## Fri, Jan 2, 2026
+
+## Sat, Jan 3, 2026
+
+### Dry January Fest
+
+- Venue: McMenamins Kennedy School Concordia
+- Time: 2pm-5pm
+- Price: $28 per person
+- Age: all ages
+- Category: General
+- URL: https://everout.com/portland/events/dry-january-fest/e222842/
+- Notes:
+
+### Game swap
+
+- Venue: RAE Loft
+- Time: 1pm - 5pm
+- Price: $5 per person
+- Age: all ages
+- Category: General
+- URL: https://www.pdxpipeline.com/pdx-game-swap-rae-loft-01-2026/
+- Notes:
+
+## Sun, Jan 4, 2026
+
+### Free First Sunday
+
+- Venue: The Japanese American Museum of Oregon
+- Time: 11AM-4PM
+- Price: Free
+- Age: all ages
+- Category: General
+- URL: https://portlandlivingonthecheap.com/free-first-sunday-japanese-american-museum-of-oregon/
+- Notes:
+
+### Drop in Open Studio
+
+- Venue: Portland Clay House
+- Time: 1pm - 3:30pm
+- Price: $25 per person
+- Age: 18+
+- Category: General
+- URL: https://www.portlandclayhouse.com/classes
+- Notes: Sun @ 1pm, Mon @ 5pm, Weds @ 4pm
 
 # Week 2 - Jan 5 - Jan 11
 
-## Mon, Jan 5
+## Mon, Jan 5, 2026
 
-> The holiday light display is free to visit and the lights are on every night from 6 to 9 p.m. through January 5.
-> https://portlandlivingonthecheap.com/holiday-lights-meinig-park/
+### Drop in Open Studio
 
-## Thurs, Jan 8
+- Venue: Portland Clay House
+- Time: 5pm - 7:30pm
+- Price: $25 per person
+- Age: 18+
+- Category: General
+- URL: https://www.portlandclayhouse.com/classes
+- Notes: Sun @ 1pm, Mon @ 5pm, Weds @ 4pm
 
-Free First Thursday
+### Holiday Lights
 
-> Free First Thursday tickets can be reserved online one week in advance and are also available at the door. Tickets to Free First Thursday programs at the Tomorrow Theater are available online.
-> https://portlandartmuseum.org/event/free-first-thursday-1-8-2026/
+- Venue: Meinig Park
+- Time: 6pm-9pm
+- Price: Free
+- Age: all ages
+- Category: General
+- URL: https://portlandlivingonthecheap.com/holiday-lights-meinig-park/
+- Notes: Last day Jan 5
 
-First thurs art walk
+## Weds, Jan 6, 2026
 
-## Weekend Jan 10- 11
+### Drop in Open Studio
 
-> O-Shogatsu Festival, Japanese New Year
-> Sunday, January 11th, 2026 / 10:00 AM - 2:30 PM
-> Location: Tateuchi Courtyard, Portland Japanese Garden
-> https://japanesegarden.org/events/o-shogatsu-festival-japanese-new-year-2026/
+- Venue: Portland Clay House
+- Time: 4pm - 6:30pm
+- Price: $25 per person
+- Age: 18+
+- Category: General
+- URL: https://www.portlandclayhouse.com/classes
+- Notes: Sun @ 1pm, Mon @ 5pm, Weds @ 4pm
 
-Drag brunch
-https://www.merctickets.com/events/176114082/diva-drag-brunch-portland
+## Thurs, Jan 8, 2026
 
-Roller derby
-https://www.pdxpipeline.com/2026-rose-city-rollers-season-opener-the-hangar-break-neck-betties-vs-guns-n-rollers-heartless-heathers-vs-high-rollers-01-2026/
+### Free First Thursday
 
-Snake Yoga (Jan 10)
-Hiss
-https://www.hisssthereptileshop.com/
-https://everout.com/portland/events/snake-yoga/e223300/
+- Venue: Portland Art Museum
+- Time: 10am - 7pm
+- Price: Free
+- Age: all ages
+- Category: General
+- URL: https://portlandartmuseum.org/event/free-first-thursday-1-8-2026/
+- Notes: Tickets can be reserved online one week in advance and are also available at the door.
 
-SUNDAY WALK
-https://portlandlivingonthecheap.com/retro-mall-walking-lloyd-center/
+### Free play 2nd Thursday
+
+- Venue: Ground Control
+- Time: 12pm - 12am
+- Price: $6-$12
+- Age: all ages
+- Category: General
+- URL: https://portlandlivingonthecheap.com/events/view-date/01-28-2026/
+- Notes: $6 from noon-5pm. $12 after 5pm.
+
+## Sat, Jan 10, 2026
+
+### Drag brunch
+
+- Venue: Swan Dive
+- Time: 11am - 1pm
+- Price: $20 per person ($25 with fees)
+- Age: all ages
+- Category: General
+- URL: https://www.merctickets.com/events/176114082/diva-drag-brunch-portland
+- Notes: Starts at 12pm
+
+### Roller derby
+
+- Venue: The Hangar
+- Time: 530pm & 8pm
+- Price: $22-35 per person
+- Age: all ages
+- Category: General
+- URL: https://www.pdxpipeline.com/2026-rose-city-rollers-season-opener-the-hangar-break-neck-betties-vs-guns-n-rollers-heartless-heathers-vs-high-rollers-01-2026/
+- Notes: Betties vs Guns N Rollers, Heartless Heathers vs High Rollers
+
+### Snake Yoga
+
+- Venue: Hiss
+- Time: 9am - 11am
+- Price: $30
+- Age: all ages
+- Category: General
+- URL: https://everout.com/portland/events/snake-yoga/e223300/
+- Notes:
+
+## Sun, Jan 11, 2026
+
+### O-Shogatsu Festival, Japanese New Year
+
+- Venue: Portland Japanese Garden
+- Time: 10:00 AM - 2:30 PM
+- Price: free
+- Age: all ages
+- Category: General
+- URL: https://japanesegarden.org/events/o-shogatsu-festival-japanese-new-year-2026/
+- Notes: Sunday, January 11th, 2026
+
+### SUNDAY WALK
+
+- Venue: Lloyd Center
+- Time: 11am - 1pm
+- Price: free
+- Age: all ages
+- Category: General
+- URL: https://portlandlivingonthecheap.com/retro-mall-walking-lloyd-center/
+- Notes: Meet at the food court
 
 ---
 
 # Week 3 - Jan 12 - Jan 18
 
-## Weekend Jan 16-18
+## Fri, Jan 16, 2026
 
-Formerly wizard world
-https://fanexpohq.com/fanexpoportland/our-schedule/
+### Fan Expo
 
-Hip chicks do wine (women only)
-https://www.hipchicksdowine.com/new-events
+- Venue: Portland Expo Center
+- Time: 5pm - 9pm
+- Price: Early Bird $29 per person
+- Age: all ages
+- Category: General
+- URL: https://fanexpohq.com/fanexpoportland/our-schedule/
+- Notes: Formerly wizard world. Prices increase after Jan 1st
 
-Drop in clay mugs
-https://www.portlandclayhouse.com/classes
+## Sat, Jan 17, 2026
 
-SUNDAY WALK
-https://portlandlivingonthecheap.com/retro-mall-walking-lloyd-center/
+### Fan Expo
+
+- Venue: Portland Expo Center
+- Time: 5pm - 9pm
+- Price: Early Bird $49 per person
+- Age: all ages
+- Category: General
+- URL: https://fanexpohq.com/fanexpoportland/our-schedule/
+- Notes: Formerly wizard world. Prices increase after Jan 1st
+
+### Wine & Game Day Snack Pairing
+
+- Venue: Hip chicks do wine
+- Time: 12pm-5pm
+- Price: $30 per person
+- Age: 18+
+- Category: General
+- URL: https://www.hipchicksdowine.com/new-events
+- Notes:
+
+## Sun, Jan 18, 2026
+
+### Fan Expo
+
+- Venue: Portland Expo Center
+- Time: 5pm - 9pm
+- Price: Early Bird $39 per person
+- Age: all ages
+- Category: General
+- URL: https://fanexpohq.com/fanexpoportland/our-schedule/
+- Notes: Formerly wizard world. Prices increase after Jan 1st
+
+### Wine & Game Day Snack Pairing
+
+- Venue: Hip chicks do wine
+- Time: 12pm-5pm
+- Price: $30 per person
+- Age: 18+
+- Category: General
+- URL: https://www.hipchicksdowine.com/new-events
+- Notes:
+
+### SUNDAY WALK
+
+- Venue: Lloyd Center
+- Time: 11am - 1pm
+- Price: free
+- Age: all ages
+- Category: General
+- URL: https://portlandlivingonthecheap.com/retro-mall-walking-lloyd-center/
+- Notes: Meet at the food court
 
 ---
 
 # Week 4 - Jan 19 - 25
 
-## Weds Jan 21
+## Weds, Jan 21, 2026
 
-> Shinnenkai
->
-> https://www.travelportland.com/event/6941d5106c974a5e53f2a8db/
+### Shinnenkai
 
-## Fri Jan 23
+- Venue: Patricia Reser Center for the Arts (Beaverton)
+- Time: 6-9pm
+- Price: $80 per person
+- Age: 21+
+- Category: General
+- URL: https://www.travelportland.com/event/6941d5106c974a5e53f2a8db/
+- Notes:
 
-> St. Johns Winter Beer Fest Jan 23-24
-> https://www.travelportland.com/event/6941d7366c974a5e53f2a928/
+## Fri, Jan 23, 2026
 
-## Weekend 24-25
+### St. Johns Winter Beer Fest
 
-SUNDAY WALK
-https://portlandlivingonthecheap.com/retro-mall-walking-lloyd-center/
+- Venue: St. Johns
+- Time: 5pm - 8pm
+- Price: $20 per person
+- Age: 21+
+- Category: General
+- URL: https://www.travelportland.com/event/6941d7366c974a5e53f2a928/
+- Notes: two days
 
-> The Portland Tacos, Tequila & Tamales Festival is January 24-25, 2026. Hours are noon to 8 p.m. on Saturday and noon to 6 p.m. on Sunday.
-> https://portlandlivingonthecheap.com/portland-tacos-tequila-tamales-festival/
+## Sat, Jan 24, 2026
+
+### St. Johns Winter Beer Fest
+
+- Venue: St. Johns
+- Time: 1pm - 4pm, 5pm - 8pm
+- Price: $20 per person
+- Age: 21+
+- Category: General
+- URL: https://www.travelportland.com/event/6941d7366c974a5e53f2a928/
+- Notes: two days
+
+### Tacos, Tequila & Tamales Festival
+
+- Venue: Portland Expo Center
+- Time: noon to 8 p.m.
+- Price: $22 per person
+- Age: all ages
+- Category: General
+- URL: https://portlandlivingonthecheap.com/portland-tacos-tequila-tamales-festival/
+- Notes:
+
+## Sun, Jan 25, 2026
+
+### SUNDAY WALK
+
+- Venue: Lloyd Center
+- Time: 11am - 1pm
+- Price: free
+- Age: all ages
+- Category: General
+- URL: https://portlandlivingonthecheap.com/retro-mall-walking-lloyd-center/
+- Notes: Meet at the food court
+
+### Tacos, Tequila & Tamales Festival
+
+- Venue: Portland Expo Center
+- Time: noon to 6 p.m.
+- Price: $19 per person
+- Age: all ages
+- Category: General
+- URL: https://portlandlivingonthecheap.com/portland-tacos-tequila-tamales-festival/
+- Notes:
 
 # Week 5 - Jan 26 - Feb 1st
 
-## Tues Jan 27
+## Mon, Jan 26, 2026
 
-![421105342_779414434226589_198883517399028403_n-4-jpeg.webp](:/a73b8f9ccc944ddd98d9685105bf1820)
+### Weiner Week
 
-https://www.pdxjacl.org/about/community/
+- Venue: Portland
+- Time: all
+- Price: $8
+- Age: all ages
+- Category: General
+- URL: https://everout.com/portland/events/the-portland-mercurys-wiener-week-2026/e222740/
+- Notes:
 
-## Weds Jan 28
+## Tues, Jan 27, 2026
 
-Free play at ground control
-https://portlandlivingonthecheap.com/events/view-date/01-28-2026/
+### Portland Japanese Americans New Years
 
-Weiner Week
-https://everout.com/portland/events/the-portland-mercurys-wiener-week-2026/e222740/
+- Venue: Oregon Buddhist Temple
+- Time: 1pm - 4pm
+- Price: free
+- Age: all ages
+- Category: General
+- URL: https://www.pdxjacl.org/about/community/
+- Notes: (![421105342_779414434226589_198883517399028403_n-4-jpeg.webp](:/a73b8f9ccc944ddd98d9685105bf1820))
 
-## Thurs Jan 29
+## Weds, Jan 28, 2026
 
-Last Thurs art walk Alberta
+### Free play last Weds
 
-Sea Shanties
-https://everout.com/portland/events/portland-pub-sing-along-sea-shanties-and-irish-tunes/e195002/
+- Venue: Ground Control
+- Time: 12pm - 12am
+- Price: $6-$12
+- Age: all ages
+- Category: General
+- URL: https://portlandlivingonthecheap.com/events/view-date/01-28-2026/
+- Notes: $6 from noon-5pm. $12 after 5pm.
 
-## Weekend - Sat, Jan 31 - Sun Feb 1
+### Weiner Week
 
-Tualatin Winter Brew Fest, Saturday January 31, 2026
-https://www.eventbrite.com/e/tualatin-winter-brew-fest-saturday-january-31-2026-tickets-1976966210153
+- Venue: Portland
+- Time: all
+- Price: $8
+- Age: all ages
+- Category: General
+- URL: https://everout.com/portland/events/the-portland-mercurys-wiener-week-2026/e222740/
+- Notes:
+
+## Weds, Jan 28, 2026
+
+### Weiner Week
+
+- Venue: Portland
+- Time: all
+- Price: $8
+- Age: all ages
+- Category: General
+- URL: https://everout.com/portland/events/the-portland-mercurys-wiener-week-2026/e222740/
+- Notes:
+
+## Thurs, Jan 29, 2026
+
+### Weiner Week
+
+- Venue: Portland
+- Time: all
+- Price: $8
+- Age: all ages
+- Category: General
+- URL: https://everout.com/portland/events/the-portland-mercurys-wiener-week-2026/e222740/
+- Notes:
+
+### Last Thurs art walk Alberta
+
+- Venue: Alberta Neighborhood
+- Time: 5pm - 8pm
+- Price: free
+- Age: all ages
+- Category: General
+- URL: https://www.lastthursdayalberta.org/info-1
+- Notes:
+
+### Sea Shanties
+
+- Venue: Portland
+- Time: 7-10pm
+- Price: free
+- Age: 21+
+- Category: General
+- URL: https://everout.com/portland/events/portland-pub-sing-along-sea-shanties-and-irish-tunes/e195002/
+- Notes:
+
+## Fri, Jan 30, 2026
+
+### Weiner Week
+
+- Venue: Portland
+- Time: all
+- Price: $8
+- Age: all ages
+- Category: General
+- URL: https://everout.com/portland/events/the-portland-mercurys-wiener-week-2026/e222740/
+- Notes:
+
+## Sat, Jan 31, 2026
+
+### Tualatin Winter Brew Fest
+
+- Venue: Tualatin
+- Time: 1pm - 5pm
+- Price: $33.77
+- Age: 21+
+- Category: General
+- URL: https://www.eventbrite.com/e/tualatin-winter-brew-fest-saturday-january-31-2026-tickets-1976966210153
+- Notes: HS Sponsor?
 
 ---
 
-# NON-EVENTS
+# NON-EVENTS (Ongoing)
 
-## FUN EVENTS
+### Glowing green minigolf
 
-### downtown
+- Venue: Portland Downtown
+- Time: all day
+- Price: $x
+- Age: all ages
+- Category: General
+- URL: https://maps.app.goo.gl/zCevtHSrTR6ZzR1P8
+- Notes:
 
-Glowing green minigolf
-https://maps.app.goo.gl/zCevtHSrTR6ZzR1P8
+### Christmas Escape Room
 
-### escape room
+- Venue: Portland Downtown
+- Time: 10am - 930pm
+- Price: $31 a person (PIPELINE2025 discount code)
+- Age: all ages
+- Category: General
+- URL: https://www.pdxpipeline.com/2025-christmas-escapism-12-2025/
+- Notes: Last day Jan 15th
 
-https://www.pdxpipeline.com/2025-christmas-escapism-12-2025/
+### Terrarium Groupon
 
-### terrarium
+- Venue: Roosevelt Terrariums
+- Time: all day
+- Price: $x
+- Age: all ages
+- Category: General
+- URL: https://www.groupon.com/deals/roosevelt-s-terrariums-2?redemptionLocationId=171d0817-4e61-b06a-747f-014a066a83a2
+- Notes:
 
-https://www.groupon.com/deals/roosevelt-s-terrariums-2?redemptionLocationId=171d0817-4e61-b06a-747f-014a066a83a2
+### Claw city
 
-### Claw city - tigard.
+- Venue: Tigard
+- Time: all day
+- Price: $x
+- Age: all ages
+- Category: General
+- URL: https://maps.app.goo.gl/tiZ5AZQvhqQRJ4mR6
+- Notes: The llyod center suck
 
-The llyod center suck
-https://maps.app.goo.gl/tiZ5AZQvhqQRJ4mR6
+### Neon Momo like Claw City in hillboro Groupon-like deal
 
--> Others recommend neon momo in hillboro
-Groupon-like deal
-https://www.clipp.com/businesses/343132/neon-momo-inc-hillsboro-or/deals/12761153/17-50-for-35-worth-of-credits-hillsboro-or
+- Venue: Hillsboro
+- Time: all day
+- Price: $x
+- Age: all ages
+- Category: General
+- URL: https://www.clipp.com/businesses/343132/neon-momo-inc-hillsboro-or/deals/12761153/17-50-for-35-worth-of-credits-hillsboro-or
+- Notes:
 
-### pinball museum Hillsboro
+### Pinball museum Hillsboro
 
-https://maps.app.goo.gl/WT5LWFoiTGQsPo289
-
-## MUSEUM
+- Venue: Hillsboro
+- Time: all day
+- Price: $x
+- Age: all ages
+- Category: General
+- URL: https://maps.app.goo.gl/WT5LWFoiTGQsPo289
+- Notes:
 
 ### World forestry center (Sasquatch - ends Jan 4)
 
-https://www.groupon.com/deals/world-forestry-center-discovery-museum-32?redemptionLocationId=ed983ce5-19cf-b06a-9052-013a9116f279 - https://worldforestry.org/our-museum/tickets-membership/
+- Venue: Portland
+- Time: all day
+- Price: $8 for two tickets (groupon)
+- Age: all ages
+- Category: General
+- URL: https://www.groupon.com/deals/world-forestry-center-discovery-museum-32?redemptionLocationId=ed983ce5-19cf-b06a-9052-013a9116f279
+- Notes:
 
-### Hopscotch (like team lab)
+### Hopscotch like team lab
+
+- Venue: Portland
+- Time: all day
+- Price: $24
+- Age: all ages
+- Category: General
+- URL: https://letshopscotch.com/locations/portland
+- Notes:
 
 ### Lan Su Chinese garden
 
-### Rice Northwest Museum of Rocks & Minerals -
+- Venue: Portland
+- Time: all day
+- Price: $x
+- Age: all ages
+- Category: General
+- URL: https://lansugarden.org/
+- Notes: GET MEMBERSHIP
 
-https://www.groupon.com/deals/rice-northwest-museum-of-rocks-minerals-1?redemptionLocationId=e5d3b113-000a-ba0c-fe3e-0198af670033
+### Rice Northwest Museum of Rocks & Minerals
 
-### distillery tour
+- Venue: Portland
+- Time: all day
+- Price: $x
+- Age: all ages
+- Category: General
+- URL: https://www.groupon.com/deals/rice-northwest-museum-of-rocks-minerals-1?redemptionLocationId=e5d3b113-000a-ba0c-fe3e-0198af670033
+- Notes:
 
-> Distillery tour + "The Whole Line Up" tasting flight of our 6 unique spirits (Gin, Forest Gin, Dry Gin, Bourbon, Cask Strength Bourbon, and Rye Whiskey) at our NW Portland tasting room.
-> Our tours run for about 30-40 minutes. If you select to do both the Tour & Tasting, seating in our tasting room will be reserved for after the tour so you can enjoy your tasting flight!
+### Distillery tour
 
-https://www.eventbrite.com/e/distillery-tour-tasting-tickets-1803481233919
+- Venue: Portland
+- Time:
+- Price: $20 (no tasting), $33 (tasting)
+- Age: all ages
+- Category: General
+- URL: https://www.eventbrite.com/e/distillery-tour-tasting-tickets-1803481233919
+- Notes: Distillery tour + "The Whole Line Up" tasting flight of our 6 unique spirits at our NW Portland tasting room. Our tours run for about 30-40 minutes.
 
 ### museum of comic arts
 
-https://nwmoca.org/museum-pop-up/
+- Venue: Portland
+- Time: all day
+- Price: $x
+- Age: all ages
+- Category: General
+- URL: https://nwmoca.org/museum-pop-up/
+- Notes:
 
-### museum
+### PICA museum
 
-https://www.pica.org/events
+- Venue: Portland
+- Time: all day
+- Price: $x
+- Age: all ages
+- Category: General
+- URL: https://www.pica.org/events
+- Notes:
 
-## EATING/NIGHTLIFE
+### Japanese plates Volunteer Or eat!
 
-### Japanese plates
-
-Volunteer Or eat! - https://ikoinokai.org/volunteer-info/
+- Venue: Portland
+- Time: noon
+- Price: free/donation
+- Age: all ages
+- Category: General
+- URL: https://ikoinokai.org/volunteer-info/
+- Notes:
 
 ### cocktails tour
 
-https://straightawaycocktails.com/pages/our-locations
+- Venue: Portland
+- Time: all day
+- Price: $x
+- Age: all ages
+- Category: General
+- URL: https://straightawaycocktails.com/pages/our-locations
+- Notes:
 
-### Marakesh
+### Marakesh - Belly dancers on weekends Groupon
 
-Belly dancers on weekends
-https://www.groupon.com/deals/marrakesh-morrocan-restaurant-portland?redemptionLocationId=efc6d624-19cf-b06a-9052-013a939d6c95
+- Venue: Portland
+- Time: weekends
+- Price: $x
+- Age: all ages
+- Category: General
+- URL: https://www.groupon.com/deals/marrakesh-morrocan-restaurant-portland?redemptionLocationId=efc6d624-19cf-b06a-9052-013a939d6c95
+- Notes:
 
 ### Holocene
 
-https://www.holocene.org/
+- Venue: Portland
+- Time: all day
+- Price: $x
+- Age: all ages
+- Category: General
+- URL: https://www.holocene.org/
+- Notes:
 
-### pinball at wedgehead
+### pinball at wedgehead - Near the old hood
 
-Near the old hood
-https://maps.app.goo.gl/4XMpKKocqmJ76t7g7
+- Venue: Portland
+- Time: all day
+- Price: $x
+- Age: all ages
+- Category: General
+- URL: https://maps.app.goo.gl/4XMpKKocqmJ76t7g7
+- Notes:
 
-### retro game bar
+### retro game bar - Maybe room rental for $30/hr?
 
-Maybe room rental for $30/hr?
-https://www.rgbpdx.com/menu
+- Venue: Portland
+- Time: all day
+- Price: $x
+- Age: all ages
+- Category: General
+- URL: https://www.rgbpdx.com/menu
+- Notes:
 
 ### karaoke
 
-https://babyketten.com/
+- Venue: Baby Ketten
+- Time: all day
+- Price: $x
+- Age: all ages
+- Category: General
+- URL: https://babyketten.com/
+- Notes:
 
 ### soaking pool
 
-https://portlandlivingonthecheap.com/soaking-pools-and-saunas/
+- Venue: Portland
+- Time: all day
+- Price: $x
+- Age: all ages
+- Category: General
+- URL: https://portlandlivingonthecheap.com/soaking-pools-and-saunas/
+- Notes:
 
-## Ideas to look into
+## Dev Notes
 
 silent Disco?
 Mexican food place near that corner near New seasons
@@ -265,13 +741,5 @@ Tree House crafting place
 Spa day at home
 The way post
 Banh mi
-Hyot arbedeum
-https://maps.app.goo.gl/AYsJX5N65uB41GZVA
+Hyot arbedeum - https://maps.app.goo.gl/AYsJX5N65uB41GZVA
 Rei membership
-
-## not interested
-
-Quilting and knitting
-Beginners knitting website
-Lgbtq knitting
-https://www.pioneerquiltshop.com/classes.htm

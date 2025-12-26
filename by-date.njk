@@ -1,0 +1,27 @@
+---
+layout: layout.njk
+title: Events By Date
+---
+
+<h2>UPCOMING EVENTS BY DATE</h2>
+<hr>
+
+{% set dateGroups = events | groupByDate %}
+
+{% for group in dateGroups %}
+  <section class="date-group">
+    <h3>{{ group.date | readableDate }}</h3>
+    <ul class="event-list">
+      {% for event in group.events %}
+        <li>
+          * [{{ event.venue_id }}] <strong>{{ event.title }}</strong> 
+          {% if event.categories %} [{{ event.categories | join(', ') }}] {% endif %}
+          ({{ event.age_restriction }}) - {{ event.price_display }} 
+          <a href="{{ event.source_url }}" target="_blank">(source)</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+{% else %}
+  <p>No upcoming events found.</p>
+{% endfor %}
