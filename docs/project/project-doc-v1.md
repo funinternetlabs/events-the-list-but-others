@@ -58,27 +58,22 @@ Create a **centralized, ultra-fast, low-friction directory** of nerd events for 
 ## **5. Key Features (High-Level)**
 
 - **By Date View (single page)**
-
   - One long retro-style page listing all upcoming events grouped by date.
   - Events are shown in a consistent textual format.
 
 - **By Venue View (single page)**
-
   - All venues listed in **alphabetical order**, with each venue’s upcoming events listed inline beneath the venue name.
 
 - **By Category View (single page)**
-
   - Six categories (Anime, Comics, Tabletop/Card, Video Games, Tech, General).
   - Each category has its own section with upcoming events listed.
 
 - **Admin Dashboard**
-
   - Admin can create/edit/hide events.
   - Admin can edit venues.
   - Admin can mark events as manually edited so scrapers don’t override them.
 
 - **Scraper System**
-
   - Scheduled process that fetches data from ~10 curated sources.
   - Normalizes scraped data into a canonical event + venue store.
 
@@ -166,7 +161,6 @@ January 12, 2026
 2. Admin sees a list of events (table) sourced from the **canonical event store**.
 
 3. Admin clicks an event:
-
    - Edits title, date/time, venue, categories, price, age restriction, description, etc.
    - Can toggle `published/hidden/cancelled`.
    - Can mark event as **manually edited**.
@@ -174,7 +168,6 @@ January 12, 2026
 4. Admin saves the event.
 
 5. On the next build run:
-
    - Build system reads canonical store.
    - Filters expired/hidden events.
    - Generates simplified read-only structures (e.g. `events_by_date`, `events_by_venue`, `events_by_category`).
@@ -198,7 +191,6 @@ Optional: Add edge cases if they matter later.
 - Scrape ~10 curated venue/event sources for Boulder.
 - Normalize data into a **canonical event + venue store**.
 - Support six categories only:
-
   - Anime
   - Comics
   - Tabletop/Card
@@ -208,7 +200,6 @@ Optional: Add edge cases if they matter later.
 
 - Provide an **admin dashboard** for CRUD operations on events and venues.
 - Generate **simplified read-only data** for:
-
   - Events by Date
   - Events by Venue
   - Events by Category
@@ -273,9 +264,7 @@ This project is **product-simple** but **pipeline-heavy**. Key complexities:
 ### Systems Overview
 
 1. **Scraper System**
-
    - Responsibilities:
-
      - Maintain a config of ~10 venues/sources.
      - Fetch raw data (HTML, RSS, Meetup pages, etc.).
      - Parse and normalize into the canonical event + venue models.
@@ -284,21 +273,17 @@ This project is **product-simple** but **pipeline-heavy**. Key complexities:
    - Writes only to the **canonical store**, not the simplified read store.
 
 2. **Admin System**
-
    - Reads/writes the canonical store.
    - Provides CRUD UI for events and venues.
    - Supports marking events as manual overrides so the scraper does not overwrite them.
    - Simple, single-user auth for MVP.
 
 3. **Build System**
-
    - Runs after scraper + admin updates.
    - Reads canonical store and:
-
      - Filters out expired events.
      - Filters or flags `hidden` / `cancelled` appropriately.
      - Generates simplified, read-optimized data:
-
        - `events_by_date`
        - `events_by_venue`
        - `events_by_category`
@@ -306,10 +291,8 @@ This project is **product-simple** but **pipeline-heavy**. Key complexities:
    - Outputs small static JSON blobs or similar structures used by frontend.
 
 4. **Frontend**
-
    - Pure static site (e.g., built assets + JSON).
    - Reads simplified data and renders:
-
      - By Date page
      - By Venue page
      - By Category page
@@ -319,33 +302,27 @@ This project is **product-simple** but **pipeline-heavy**. Key complexities:
 ### Specific Technical Considerations
 
 - **Scraping challenges:**
-
   - Some sites may be **JavaScript-heavy**, requiring a headless browser.
   - Risk of **HTML structure changes** breaking scrapers.
   - **Rate limiting** or anti-bot protections.
   - We are effectively “ask forgiveness” on ToS/robots.txt.
 
 - **Scheduled workers:**
-
   - Lambda or cloud functions might have outbound limitations or timeouts.
   - May require a container/VM environment more tolerant of heavy scraping.
 
 - **Data normalization:**
-
   - Different event formats per venue (dates, times, price formats) must be standardized.
 
 - **Admin overrides vs scraper updates:**
-
   - Must define logic such that manually edited events are not overridden.
   - Possibly track last-scraped time and treat certain fields as locked.
 
 - **Static site generation:**
-
   - Build should always complete to a valid state (no half-built outputs).
   - Might need to ensure build falls back to last good artifact on failure.
 
 - **Performance:**
-
   - Static site + small JSON = very fast.
   - Must keep simplified read store small and lean.
 
@@ -360,7 +337,6 @@ This project is **product-simple** but **pipeline-heavy**. Key complexities:
 - Do we need to keep an **archive of past events**, or only show future ones?
 - How should “manual override” behave long-term (e.g., can it ever be reset to scraper-managed)?
 - Should the static build be:
-
   - Only on a schedule, or
   - Also triggered manually after major admin edits?
 
@@ -395,7 +371,6 @@ This project is **product-simple** but **pipeline-heavy**. Key complexities:
 
 - City = **Portland** for MVP, but the system should be city-agnostic in design.
 - Exactly six categories:
-
   - Anime
   - Comics
   - Tabletop/Card

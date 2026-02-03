@@ -1,6 +1,6 @@
 # Nerd List Site Generator Roadmap
 
-This document outlines the phased development of the Nerd List Site Generator, transitioning from a local Boulder MVP to a scaleable, multi-city event platform.
+This document outlines the phased development of the Nerd List Site Generator, transitioning from a single-city MVP to a scalable, community-driven event platform.
 
 ## Phase 1: Core Architecture & Portland MVP [x]
 
@@ -24,49 +24,71 @@ This document outlines the phased development of the Nerd List Site Generator, t
   - [x] Setup collections and filters for event grouping/sorting.
 - [x] **Minimalist Retro Frontend**
   - [x] 90s-inspired CSS (monospaced, high contrast, mobile-friendly).
-  - [x] Home page + 3 core list views.
+  - [x] Home page + 3 core list views (By Date, Venue, Category).
   - [x] Dark/Light mode theme toggle.
-
-## Phase 2: Refinement & Admin Tools
-
-**Goal:** Improve data quality and ease of management.
-
-- [ ] **Admin Dashboard**
-  - [ ] Simple UI for CSV/JSON imports (moving from script-only to UI).
-  - [ ] Event CRUD (Create, Read, Update, Delete).
-  - [ ] Venue management.
-- [ ] **Pipeline Robustness**
-  - [ ] Error reporting for broken scrapers.
-  - [ ] Duplicate detection logic.
-- [x] **Deployment**
+- [x] **Initial Deployment**
   - [x] Deploy to Github pages via GitHub Actions.
 
-## Phase 3: Scaling & Multi-City Support
+## Phase 2: Data Collection & Staging Infrastructure [/]
 
-**Goal:** Transition from "Boulder only" to a general-purpose engine.
+**Goal:** Build a robust, automated system to grab data from multiple sources.
 
-- [ ] **Event Pipeline**
-  - [ ] RSS Adapter (for stable feeds).
-  - [ ] JSDOM/Scraper Adapter (for HTML sources).
-- [ ] **Multi-City Architecture**
-  - [ ] Parameterize the build system to support multiple output directories/domains.
-  - [ ] Shared venue/source configuration.
-- [ ] **Advanced Adapters**
-  - [ ] CSV Adapter (for manual data dumps or partner feeds).
-  - [ ] Headless browser support (Playwright/Puppeteer) for JS-heavy sites.
-- [ ] **Enhanced Discovery**
-  - [ ] Simple search (client-side).
-  - [ ] Archive/Historical event views.
-- [x] **Deployment Automation**
-  - [x] Automated build/scrape/deploy cycle on push (GitHub Actions).
+- [ ] **Adapter Expansion**
+  - [ ] RSS Adapter for stable feeds.
+  - [ ] JSDOM/Scraper Adapter for HTML sources.
+- [ ] **Staging Storage (The "Review Queue")**
+  - [ ] Implement `data/scraped/` directory for raw, unverified data.
+  - [ ] Standardize scraping output: `source-name-YYYY-MM-DD.json`.
+- [ ] **Scraper Automation**
+  - [ ] Command line tool to run all/specific scrapers.
+  - [ ] Setup Cron Job (GitHub Actions) for automatic nightly scrapes.
+  - [ ] Basic error reporting for broken scrapers.
 
-## Phase 4: Long-Term Vision
+## Phase 3: Admin UI & Data Cleanup
 
-**Goal:** Self-sustaining community tool.
+**Goal:** A web interface to review scraped data and manage the "Clean" store.
 
-- [ ] **Community Contributions**
-  - [ ] Simple "Suggest a Venue/Event" submission flow.
+- [ ] **Admin Dashboard (Local Tool)**
+  - [ ] Initialize `admin/` workspace (Vite + Vue + Tailwind).
+  - [ ] Lightweight API server (`scripts/admin-server.ts`) to manage local JSON files.
+- [ ] **Review Queue Workflow**
+  - [ ] UI to browse events in `data/scraped/`.
+  - [ ] **Actions:** Approve (move to Clean), Reject (ignore), or Edit then Approve.
+- [ ] **Clean Data Store**
+  - [ ] Establish `data/clean/` as the single source of truth for the site.
+  - [ ] Manual CRUD: Directly add/edit events/venues (bypasses queue).
+- [ ] **Duplicate Management**
+  - [ ] Implement simple duplicate detection (Fuzzy vs Venue/Date) after gathering initial data.
+
+## Phase 4: Production Pipeline & Notifications
+
+**Goal:** Automate publishing and keep the admin informed.
+
+- [ ] **Publishing Flow**
+  - [ ] Update Eleventy to build exclusively from `data/clean/`.
+  - [ ] Integrated build: Merging approved data into the site build.
+- [ ] **Email Notification System**
+  - [ ] Generic `EmailService` class for various alerts.
+  - [ ] Trigger: Notifying the admin when a scraper finds new events for review.
+- [ ] **Sharding & Archiving**
+  - [ ] Archive events older than 6 months into separate history files to keep main store lean.
+
+## Phase 5: Scaling & City Portability
+
+**Goal:** Make the project easy for others to use for their own cities.
+
+- [ ] **Portability**
+  - [ ] Finalize "Fork Model": Clone repo -> edit `config.json` -> deploy.
+  - [ ] Parameterize city name, timezone, and source lists.
+- [ ] **Documentation**
+  - [ ] Setup guide for local development and deployment.
+  - [ ] Best practices for writing new scrapers.
+
+## Phase 6: Community Features
+
+**Goal:** Transition to a self-sustaining community tool.
+
+- [ ] **Submissions**
+  - [ ] "Suggest a Venue/Event" flow.
 - [ ] **Theming Engine**
   - [ ] Support for multiple retro themes beyond the 90s default.
-- [ ] **API Access**
-  - [ ] Provide a public JSON API for the normalized event data.
