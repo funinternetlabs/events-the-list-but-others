@@ -1,57 +1,92 @@
 import fs from 'fs-extra';
 import path from 'path';
 import { MarkdownAdapter } from '../src/adapters/MarkdownAdapter.js';
-import type { NormalizedData } from '../src/types/index.js';
+import { BaseAdapter } from '../src/adapters/BaseAdapter.js';
+import type { Event, Venue, NormalizedData } from '../src/types/index.js';
+
+// Configuration
+const ADAPTERS: BaseAdapter[] = [
+  new MarkdownAdapter(),
+  // eventually: new HTMLScraperAdapter(meetupConfig), etc.
+];
+
+const STAGING_DIR = path.resolve('data/scraped');
+const LEGACY_OUTPUT_DIR = path.resolve('_data');
 
 async function main() {
-  console.log('🚀 Starting Event Scraper...');
+  console.log('🚀 Starting Scraper Pipeline...');
+  
+  // Ensure directories exist
+  await fs.ensureDir(STAGING_DIR);
+  await fs.ensureDir(LEGACY_OUTPUT_DIR);
 
-  // 1. Initialize Adapters
-  const markdownAdapter = new MarkdownAdapter();
+  const allEvents: Event[] = [];
+  const allVenues = new Map<string, Venue>();
+  const scrapedTimestamp = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
 
+  // 1. Run Adapters
+  for (const adapter of ADAPTERS) {
+    try {
+      console.log(`📦 Running Adapter: ${adapter.name}...`);
+      const data = await adapter.fetchAndNormalize();
+      
+      // 2. Save Snapshot to Staging
+      const snapshotFilename = `${adapter.name.toLowerCase()}-${scrapedTimestamp}.json`;
+      const snapshotPath = path.join(STAGING_DIR, snapshotFilename);
+      
+      await fs.writeJson(snapshotPath, {
+        meta: {
+          adapter: adapter.name,
+          scraped_at: new Date().toISOString(),
+          source_url: adapter.sourceUrl
+        },
+        data: data
+      }, { spaces: 2 });
+      console.log(`   ↳ Saved snapshot to ${snapshotFilename}`);
+
+      // 3. Collect for Legacy Build (Backward Compatibility)
+      data.events.forEach(e => allEvents.push(e));
+      data.venues.forEach(v => allVenues.set(v.id, v));
+
+    } catch (error) {
+      console.error(`❌ Adapter ${adapter.name} failed:`, error);
+      // We don't exit process here, so other adapters can still run
+    }
+  }
+
+  // 4. Legacy Processing (Filter & Write to _data for Eleventy)
+  // This preserves the current site functionality until Phase 4
+  console.log('⚙️  Processing for Legacy Site Build...');
+
+  // Extract Dev Notes (Specific to Markdown logic - maybe move this eventually?)
+  const rkEventsPath = path.resolve('docs/events/pdx-jan-2026-events.md');
+  let devNotes = '';
   try {
-    // 2. Fetch data
-    console.log(`📦 Running ${markdownAdapter.name}...`);
-    const { events, venues } = await markdownAdapter.fetchAndNormalize();
-
-    // 3. Extract Dev Notes
-    const rkEventsPath = path.resolve('docs/events/pdx-jan-2026-events.md'); // TODO: Move this to a config
     const rkEventsContent = await fs.readFile(rkEventsPath, 'utf-8');
     const devNotesMatch = rkEventsContent.match(/## Dev Notes([\s\S]*)$/);
-    const devNotes = devNotesMatch ? devNotesMatch[1].trim() : '';
+    devNotes = devNotesMatch ? devNotesMatch[1].trim() : '';
+  } catch (e) { /* ignore if missing */ }
 
-    // 4. Filter and Normalize
-    const today = new Date('2025-12-25'); // Use current date for filtering (hardcoded to local time provided)
-    today.setHours(0, 0, 0, 0);
+  const today = new Date(); 
+  today.setHours(0, 0, 0, 0);
 
-    const futureEvents = events.filter(event => {
-      if (event.start_datetime === '9999-12-31') return true; // Keep ongoing
-      const eventDate = new Date(event.start_datetime);
-      return eventDate >= today;
-    });
+  const futureEvents = allEvents.filter(event => {
+    if (event.start_datetime === '9999-12-31') return true; // Keep ongoing
+    const eventDate = new Date(event.start_datetime);
+    return eventDate >= today;
+  });
 
-    // 5. Prepare Data for Eleventy
-    const outputDir = path.resolve('_data');
-    await fs.ensureDir(outputDir);
+  await fs.writeJson(path.join(LEGACY_OUTPUT_DIR, 'events.json'), futureEvents, { spaces: 2 });
+  await fs.writeJson(path.join(LEGACY_OUTPUT_DIR, 'venues.json'), Array.from(allVenues.values()), { spaces: 2 });
+  await fs.writeJson(path.join(LEGACY_OUTPUT_DIR, 'site.json'), { 
+    devNotes,
+    lastUpdated: new Date().toISOString(),
+    city: 'Portland'
+  }, { spaces: 2 });
 
-    await fs.writeJson(path.join(outputDir, 'events.json'), futureEvents, { spaces: 2 });
-    await fs.writeJson(path.join(outputDir, 'venues.json'), venues, { spaces: 2 });
-    await fs.writeJson(path.join(outputDir, 'site.json'), { 
-      devNotes,
-      lastUpdated: new Date().toISOString(),
-      city: 'Portland'
-    }, { spaces: 2 });
-
-    console.log(`✅ Scrape complete!`);
-    console.log(`   - Events found: ${events.length}`);
-    console.log(`   - Future events: ${futureEvents.length}`);
-    console.log(`   - Venues: ${venues.length}`);
-    console.log(`   - Output directory: ${outputDir}`);
-
-  } catch (error) {
-    console.error('❌ Error during scrape:', error);
-    process.exit(1);
-  }
+  console.log(`✅ Pipeline complete!`);
+  console.log(`   - Snapshots saved: ${ADAPTERS.length}`);
+  console.log(`   - Total Events (Legacy): ${futureEvents.length}`);
 }
 
 main();
