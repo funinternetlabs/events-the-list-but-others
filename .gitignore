@@ -26,3 +26,7 @@ dist-ssr
 ## Eleventy
 _site
 _data/
+
+## Data Pipeline
+data/cache/
+# Keep data/scraped/ and data/clean/ in git for MVP database

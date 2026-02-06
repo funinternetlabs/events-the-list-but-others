@@ -38,15 +38,22 @@ export class HTMLScraperAdapter implements BaseAdapter {
     
     // 1. Fetch HTML (with Cache)
     let html = '';
-    const cacheDir = 'data/cache';
-    const cacheFile = `${cacheDir}/${this.name.toLowerCase()}.html`;
+    
+    // Ensure absolute path for cache
+    const { default: fs } = await import('fs-extra');
+    const { default: path } = await import('path');
+    
+    // Cache Naming: {date}-{source}.html (Daily Cache)
+    const today = new Date().toISOString().split('T')[0];
+    const cacheDir = path.resolve('data/cache');
+    const cacheFile = path.join(cacheDir, `${today}-${this.name.toLowerCase()}.html`);
+    
     // Simple dev cache: If file exists, use it. To refresh, delete the file.
     // In future we can add time-based expiry or ENV var bypass.
     const useCache = process.env.NO_CACHE !== 'true'; 
 
     try {
         if (useCache) {
-            const fs = await import('fs-extra');
             if (await fs.pathExists(cacheFile)) {
                 console.log(`   ⚡️ Cache hit: ${cacheFile}`);
                 html = await fs.readFile(cacheFile, 'utf-8');
@@ -60,7 +67,6 @@ export class HTMLScraperAdapter implements BaseAdapter {
         
         // Save to cache
         try {
-            const fs = await import('fs-extra');
             await fs.ensureDir(cacheDir);
             await fs.writeFile(cacheFile, html);
             console.log(`   💾 Saved to cache: ${cacheFile}`);

@@ -32,7 +32,8 @@ async function main() {
       const data = await adapter.fetchAndNormalize();
       
       // 2. Save Snapshot to Staging
-      const snapshotFilename = `${adapter.name.toLowerCase()}-${scrapedTimestamp}.json`;
+      // Naming Convention: {date}-{source}.json
+      const snapshotFilename = `${scrapedTimestamp}-${adapter.name.toLowerCase()}.json`;
       const snapshotPath = path.join(STAGING_DIR, snapshotFilename);
       
       await fs.writeJson(snapshotPath, {
