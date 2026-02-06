@@ -1,0 +1,266 @@
+{
+  "meta": {
+    "adapter": "Meetup Tech",
+    "scraped_at": "2026-02-06T04:50:56.898Z",
+    "source_url": "https://www.meetup.com/find/?location=us--or--portland&eventType=inPerson&source=EVENTS&categoryId=546"
+  },
+  "data": {
+    "events": [
+      {
+        "id": "galentines-party-for-boss-babes-2026-02-13T02:00:00.000Z",
+        "title": "Galentine’s Party for Boss Babes",
+        "venue_id": "rose-city-techies",
+        "start_datetime": "2026-02-13T02:00:00.000Z",
+        "end_datetime": "",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Link",
+        "age_restriction": "See Link",
+        "source_url": "https://www.meetup.com/rose-city-techies/events/312411737/",
+        "source_type": "meetup",
+        "description": "In-person networking event for women in tech with Valentine’s crafting; attendees write a handwritten love letter to their future self, mailed back in June.",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "demolicious-february-2026-2026-02-13T01:00:00.000Z",
+        "title": "Demolicious - FEBRUARY 2026",
+        "venue_id": "upstart-collective-westside",
+        "start_datetime": "2026-02-13T01:00:00.000Z",
+        "end_datetime": "",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Link",
+        "age_restriction": "See Link",
+        "source_url": "https://www.meetup.com/demolicious-portland/events/312588127/",
+        "source_type": "meetup",
+        "description": "Monthly pitch event for founders and startups; contestants pitch in 3 minutes and the audience votes for the Demolicious Championship belt.",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "play-pool-talk-tech-2026-02-13T01:00:00.000Z",
+        "title": "Play pool. Talk tech",
+        "venue_id": "rialto-poolroom",
+        "start_datetime": "2026-02-13T01:00:00.000Z",
+        "end_datetime": "",
+        "categories": [
+          "Tech"
+        ],
+        "price_display": "See Link",
+        "age_restriction": "See Link",
+        "source_url": "https://www.meetup.com/tech-talent-pool/events/312470637/",
+        "source_type": "meetup",
+        "description": "Networking event for tech professionals to play pool and discuss tech, helping attendees make new professional connections.",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "beers-with-engineers-2026-02-20T01:00:00.000Z",
+        "title": "Beers with Engineers",
+        "venue_id": "deschutes-brewery-and-public-house",
+        "start_datetime": "2026-02-20T01:00:00.000Z",
+        "end_datetime": "",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Link",
+        "age_restriction": "See Link",
+        "source_url": "https://www.meetup.com/pdxbwe/events/307188311/",
+        "source_type": "meetup",
+        "description": "Casual after-work meetup for diverse engineers to network, share a drink, and learn about fields; open to newcomers and minority engineers to grow networks.",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "autodesk-fusion-insider-testing-with-psu-2026-02-06T20:40:00.000Z",
+        "title": "Autodesk Fusion Insider Testing with PSU",
+        "venue_id": "psu",
+        "start_datetime": "2026-02-06T20:40:00.000Z",
+        "end_datetime": "",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Link",
+        "age_restriction": "See Link",
+        "source_url": "https://www.meetup.com/pdx-digital-fabrication-meetup/events/312751871/",
+        "source_type": "meetup",
+        "description": "Hands-on Fusion beta testing session for users of all levels to try the next Fusion release and provide direct feedback to the Fusion team.",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "break-it-founder-app-testing-feedback-session-2026-02-11T19:30:00.000Z",
+        "title": "Break - It! : Founder App Testing & Feedback Session",
+        "venue_id": "nedspace-pioneer-square",
+        "start_datetime": "2026-02-11T19:30:00.000Z",
+        "end_datetime": "",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Link",
+        "age_restriction": "See Link",
+        "source_url": "https://www.meetup.com/portland-new-in-town-entrepreneurs-group/events/312258363/",
+        "source_type": "meetup",
+        "description": "An in-person founder-focused app testing session for demos and peer testing, delivering real-time feedback to validate concepts before launch.",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "getting-the-most-out-of-local-2026-02-11T02:30:00.000Z",
+        "title": "Getting the Most Out of Local",
+        "venue_id": "hostel-cafe",
+        "start_datetime": "2026-02-11T02:30:00.000Z",
+        "end_datetime": "",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Link",
+        "age_restriction": "See Link",
+        "source_url": "https://www.meetup.com/pdx-wp/events/312871088/",
+        "source_type": "meetup",
+        "description": "An introductory session on Local by WPEngine for WordPress developers and site builders to build and test locally, with practical tips to speed up development.",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "portland-data-ai-february-session-2026-02-12T01:00:00.000Z",
+        "title": "Portland Data + AI February Session",
+        "venue_id": "portland-data-ai-meetup",
+        "start_datetime": "2026-02-12T01:00:00.000Z",
+        "end_datetime": "",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Link",
+        "age_restriction": "See Link",
+        "source_url": "https://www.meetup.com/portland-data-ai-meetup/events/312370456/",
+        "source_type": "meetup",
+        "description": "📣 **Portland Data + AI Meetup — February Session**\nJoin us as we kick off our 2026 season showing our love of 💖 Data and AI 💖 with two deep-dive Databricks technical talks — one focused on accelerating migrations to the Lakehouse with Lakebridge, and the other on boosting AutoML performance using ensemble techniques. Whether you're building pipelines, tuning ML models, or modernizing enterprise BI, this session is packed with takeaways you can use immediately.\n\n***\n\n🎤 **Speakers**\n**1\\. Sravani Vadali — Specialist Solutions Architect\\, Databricks**\n*“Lakebridge 101 and Migration Phases”*\nAn overview of the different phases of migrating your legacy data warehouse into a unified Lakehouse, the open-source Lakebridge toolkit, and how it can analyze and convert your legacy code.\n**2\\. Dr\\. Drew Minkin\\, AI Architect and Instructor Champion**\n*“Supercharging Databricks AutoML with Ensemble Techniques”*\nAn intro to the fundamentals of machine learning through a quick, approachable AutoML demo, followed by a brief exploration of practical techniques for adding robustness to models in ways that go beyond what Databricks AutoML provides out of the box. The talk will include a walk-through of how to automate ensemble methods using Drew's custom Databricks application—Databricks AutoML OBSRVE. (Objects for Blending, Stacking, Routing, and Voting Ensembles)\n\n***\n\n🗓 **When:**\nWednesday, February 11th • 5:00 PM – 7:00 PM\n**📍 Where:**\nBeaverton City Library – Meeting Room A\n12375 SW 5th Street, Beaverton, OR 97005\n[Apple Maps link](https://maps.apple.com/?address=12375%20SW%205th%20Street,%20Beaverton,%20OR%2097005)\n\n***\n\n**🍴 What’s Included:**\n• Delicious bites from **Hapa Pizza** and other local restaurants\n• Join us afterwards for a no-host networking hour at **Binary Brewing**\n\n***\n\n**🧠 Agenda:**\n• **5:00 – 5:05 PM:** Welcome plus Community Updates\n• **5:05 – 5:35 PM:** 1st Talk – Sravani Vadali\n• **5:40 – 6:10 PM:** 2nd Talk - Dr. Drew Minkin\n• **6:10 – 6:30 PM:** Networking & Refreshments\n• **6:30 – 7:00 PM:** Cleanup & Close\n\n***\n\n**💡 About the Meetup:**\nThe Portland Data + AI Meetup connects professionals and enthusiasts working with the **Databricks Data Intelligence Platform** and the broader **open-source Data and AI ecosystem** (Delta, Iceberg, MLflow, Spark, and more). We explore everything from data engineering and data governance to analytics and generative AI.\n\nThanks to **Concentrix Catalyst** for sponsoring the Meetup service.\n\n#Databricks #OpenSource #DataIntelligence #Portland #PDX #DataCommunity #Networking",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "aws-user-group-tech-talk-strengthening-your-ai-product-security-safety-2026-02-19T01:30:00.000Z",
+        "title": "AWS User Group Tech Talk: Strengthening your AI Product Security & Safety",
+        "venue_id": "profocus-technology-professionals",
+        "start_datetime": "2026-02-19T01:30:00.000Z",
+        "end_datetime": "",
+        "categories": [
+          "Tech"
+        ],
+        "price_display": "See Link",
+        "age_restriction": "See Link",
+        "source_url": "https://www.meetup.com/aws-portland/events/312539569/",
+        "source_type": "meetup",
+        "description": "AWS User Group tech talk for cloud and security pros; attendees will gain practical insights on AI in cloud security from Emily Soward.",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "mentorship-saturdays-roseline-coffee-online-2026-02-07T18:00:00.000Z",
+        "title": "Mentorship Saturdays @ Roseline Coffee & Online",
+        "venue_id": "roseline-coffee",
+        "start_datetime": "2026-02-07T18:00:00.000Z",
+        "end_datetime": "",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Link",
+        "age_restriction": "See Link",
+        "source_url": "https://www.meetup.com/mentorship-saturdays/events/312483371/",
+        "source_type": "meetup",
+        "description": "Mentorship Saturdays for people seeking guidance; in-person (upstairs) or online sessions with host Aaron Campf to receive mentorship.",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "mingling-for-data-professionals-and-enthusiasts-2026-02-12T01:15:00.000Z",
+        "title": "Mingling for Data Professionals and Enthusiasts",
+        "venue_id": "pydata-pdx",
+        "start_datetime": "2026-02-12T01:15:00.000Z",
+        "end_datetime": "",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Link",
+        "age_restriction": "See Link",
+        "source_url": "https://www.meetup.com/pydata-pdx/events/313196961/",
+        "source_type": "meetup",
+        "description": "Hello my beautiful nerds! It's 2026, and we're back! If you've been to one of these events before, you know the deal. We like to get together, have a beverage and possibly some nibbles and hang out with our kindreds. We'll be at our \"winter\" hang out of Loyal Legion. We try to grab the long table by the front.",
+        "status": "published",
+        "is_manual_override": false
+      }
+    ],
+    "venues": [
+      {
+        "id": "rose-city-techies",
+        "name": "Rose City Techies",
+        "city": "Portland",
+        "events_source_url": "https://www.meetup.com/find/?location=us--or--portland&eventType=inPerson&source=EVENTS&categoryId=546"
+      },
+      {
+        "id": "upstart-collective-westside",
+        "name": "UpStart Collective (westside)",
+        "city": "Portland",
+        "events_source_url": "https://www.meetup.com/find/?location=us--or--portland&eventType=inPerson&source=EVENTS&categoryId=546"
+      },
+      {
+        "id": "rialto-poolroom",
+        "name": "Rialto Poolroom",
+        "city": "Portland",
+        "events_source_url": "https://www.meetup.com/find/?location=us--or--portland&eventType=inPerson&source=EVENTS&categoryId=546"
+      },
+      {
+        "id": "deschutes-brewery-and-public-house",
+        "name": "Deschutes Brewery and Public House",
+        "city": "Portland",
+        "events_source_url": "https://www.meetup.com/find/?location=us--or--portland&eventType=inPerson&source=EVENTS&categoryId=546"
+      },
+      {
+        "id": "psu",
+        "name": "PSU",
+        "city": "Portland",
+        "events_source_url": "https://www.meetup.com/find/?location=us--or--portland&eventType=inPerson&source=EVENTS&categoryId=546"
+      },
+      {
+        "id": "nedspace-pioneer-square",
+        "name": "NedSpace @ Pioneer Square",
+        "city": "Portland",
+        "events_source_url": "https://www.meetup.com/find/?location=us--or--portland&eventType=inPerson&source=EVENTS&categoryId=546"
+      },
+      {
+        "id": "hostel-cafe",
+        "name": "Hostel Cafe",
+        "city": "Portland",
+        "events_source_url": "https://www.meetup.com/find/?location=us--or--portland&eventType=inPerson&source=EVENTS&categoryId=546"
+      },
+      {
+        "id": "portland-data-ai-meetup",
+        "name": "Portland Data + AI Meetup",
+        "city": "Portland",
+        "events_source_url": "https://www.meetup.com/find/?location=us--or--portland&eventType=inPerson&source=EVENTS&categoryId=546"
+      },
+      {
+        "id": "profocus-technology-professionals",
+        "name": "ProFocus Technology Professionals",
+        "city": "Portland",
+        "events_source_url": "https://www.meetup.com/find/?location=us--or--portland&eventType=inPerson&source=EVENTS&categoryId=546"
+      },
+      {
+        "id": "roseline-coffee",
+        "name": "Roseline Coffee",
+        "city": "Portland",
+        "events_source_url": "https://www.meetup.com/find/?location=us--or--portland&eventType=inPerson&source=EVENTS&categoryId=546"
+      },
+      {
+        "id": "pydata-pdx",
+        "name": "PyData PDX",
+        "city": "Portland",
+        "events_source_url": "https://www.meetup.com/find/?location=us--or--portland&eventType=inPerson&source=EVENTS&categoryId=546"
+      }
+    ]
+  }
+}

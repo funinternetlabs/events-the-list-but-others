@@ -4,11 +4,23 @@ import { MarkdownAdapter } from '../src/adapters/MarkdownAdapter.js';
 import type { BaseAdapter } from '../src/adapters/BaseAdapter.js';
 import { kilnScraper } from './scrapers/kiln.js';
 import type { Event, Venue, NormalizedData } from '../src/types/index.js';
+import { RSSAdapter } from '../src/adapters/RSSAdapter.js';
+import { MeetupAdapter } from '../src/adapters/MeetupAdapter.js';
 
 // Configuration
 const ADAPTERS: BaseAdapter[] = [
   new MarkdownAdapter(),
   kilnScraper,
+  new RSSAdapter({
+    sourceName: 'PDX Pipeline',
+    sourceUrl: 'https://pdxpipeline.com/feed',
+    city: 'Portland'
+  }),
+  new MeetupAdapter({
+    sourceName: 'Meetup Tech',
+    sourceUrl: 'https://www.meetup.com/find/?location=us--or--portland&eventType=inPerson&source=EVENTS&categoryId=546',
+    city: 'Portland'
+  }),
 ];
 
 const STAGING_DIR = path.resolve('data/scraped');

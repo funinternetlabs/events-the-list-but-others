@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "adapter": "PDX Pipeline",
+    "scraped_at": "2026-02-06T04:50:54.790Z",
+    "source_url": "https://pdxpipeline.com/feed"
+  },
+  "data": {
+    "events": [
+      {
+        "id": "portland-in-the-news-black-history-month-reads-goodbye-lloyd-center-beyond-dry-january-more-february-5-2026-2026-02-05T20:17:22.000Z",
+        "title": "Portland in the News: Black History Month Reads, Goodbye Lloyd Center, Beyond Dry January & More | February 5, 2026",
+        "venue_id": "pdx-pipeline",
+        "start_datetime": "2026-02-05T20:17:22.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Link",
+        "age_restriction": "See Link",
+        "source_url": "https://www.pdxpipeline.com/portland-in-the-news-black-history-month-reads-goodbye-lloyd-center-beyond-dry-january-more-february-5-2026/",
+        "source_type": "rss",
+        "description": "February is Black History Month and the Multnomah County Library has a list of graphic novels by black authors to check out. \nThe post Portland in the News: Black History Month Reads, Goodbye Lloyd Center, Beyond Dry January & More | February 5, 2026 first appeared on PDX Pipeline.\nThe post Portland in the News: Black History Month Reads, Goodbye Lloyd Center, Beyond Dry January & More | February 5, 2026 appeared first on PDX Pipeline.",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "many-portland-weekend-events-giveaways-1700-super-bowl-markets-festivals-concerts-comedy-theater-film-more-2026-02-05T17:00:10.000Z",
+        "title": "MANY Portland Weekend Events & Giveaways ($1,700+): Super Bowl, Markets, Festivals, Concerts, Comedy, Theater, Film, & More!",
+        "venue_id": "pdx-pipeline",
+        "start_datetime": "2026-02-05T17:00:10.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Link",
+        "age_restriction": "See Link",
+        "source_url": "https://www.pdxpipeline.com/weekend/",
+        "source_type": "rss",
+        "description": "A round up of what's going on in Portland this weekend including live music, concerts, comedy, trivia, happy hours, movies & more!\nThe post MANY Portland Weekend Events & Giveaways ($1,700+): Super Bowl, Markets, Festivals, Concerts, Comedy, Theater, Film, & More! first appeared on PDX Pipeline.\nThe post MANY Portland Weekend Events & Giveaways ($1,700+): Super Bowl, Markets, Festivals, Concerts, Comedy, Theater, Film, & More! appeared first on PDX Pipeline.",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "bloody-valentine-vhs-swap-market-dots-bachelorx-auction-dj-black-planet-2026-02-04T19:44:57.000Z",
+        "title": "Bloody Valentine VHS Swap & Market @ Dots | Bachelorx Auction, DJ Black Planet",
+        "venue_id": "pdx-pipeline",
+        "start_datetime": "2026-02-04T19:44:57.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Link",
+        "age_restriction": "See Link",
+        "source_url": "https://www.pdxpipeline.com/bloody-valentine-vhs-swap-market-dots-02-2026/",
+        "source_type": "rss",
+        "description": "Saturday Feb 7th, we have our next VHS Swap and Vendor Market. We have a ton of awesome tape vendors this time around, so you definitely don’t want to miss it.\nThe post Bloody Valentine VHS Swap & Market @ Dots | Bachelorx Auction, DJ Black Planet first appeared on PDX Pipeline.\nThe post Bloody Valentine VHS Swap & Market @ Dots | Bachelorx Auction, DJ Black Planet appeared first on PDX Pipeline.",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "portland-winter-light-festival-2026-9-days-of-free-outdoor-winter-art-across-the-city-2026-02-04T19:05:37.000Z",
+        "title": "Portland Winter Light Festival 2026 | 9 Days of FREE, Outdoor Winter Art Across The City",
+        "venue_id": "pdx-pipeline",
+        "start_datetime": "2026-02-04T19:05:37.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Link",
+        "age_restriction": "See Link",
+        "source_url": "https://www.pdxpipeline.com/portland-winter-light-festival-02-2026/",
+        "source_type": "rss",
+        "description": "PDXWLF brings art, technology, and inclusivity together, invigorating Portland in the winter.\nThe post Portland Winter Light Festival 2026 | 9 Days of FREE, Outdoor Winter Art Across The City first appeared on PDX Pipeline.\nThe post Portland Winter Light Festival 2026 | 9 Days of FREE, Outdoor Winter Art Across The City appeared first on PDX Pipeline.",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "amanati-nova-pdx-exotic-electronic-music-2026-02-03T22:46:32.000Z",
+        "title": "Amanati @ Nova PDX | Exotic Electronic Music",
+        "venue_id": "pdx-pipeline",
+        "start_datetime": "2026-02-03T22:46:32.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Link",
+        "age_restriction": "See Link",
+        "source_url": "https://www.pdxpipeline.com/amanati-nova-pdx-05-2026/",
+        "source_type": "rss",
+        "description": "Amanati, godfather of Exotic Electronic Music, is a symbol of creative power, raw expression, sensuality, and freedom.\nThe post Amanati @ Nova PDX | Exotic Electronic Music first appeared on PDX Pipeline.\nThe post Amanati @ Nova PDX | Exotic Electronic Music appeared first on PDX Pipeline.",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "toxic-love-darcelle-xv-showplace-a-drag-cabaret-revue-2026-02-03T20:34:42.000Z",
+        "title": "Toxic Love @ Darcelle XV Showplace | A Drag & Cabaret Revue",
+        "venue_id": "pdx-pipeline",
+        "start_datetime": "2026-02-03T20:34:42.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Link",
+        "age_restriction": "See Link",
+        "source_url": "https://www.pdxpipeline.com/toxic-love-darcelle-xv-showplace-02-2026/",
+        "source_type": "rss",
+        "description": "RAE presents this ICONIC Drag & Cabaret, featuring some of your Favorite Local Drag Performers in Portland at Darcelle XV Showplace!\nThe post Toxic Love @ Darcelle XV Showplace | A Drag & Cabaret Revue first appeared on PDX Pipeline.\nThe post Toxic Love @ Darcelle XV Showplace | A Drag & Cabaret Revue appeared first on PDX Pipeline.",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "friday-night-magic-the-gathering-the-eastburn-public-house-join-the-battle-2026-02-03T20:20:55.000Z",
+        "title": "Friday Night Magic: The Gathering @ The EastBurn Public House | Join the Battle!",
+        "venue_id": "pdx-pipeline",
+        "start_datetime": "2026-02-03T20:20:55.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Link",
+        "age_restriction": "See Link",
+        "source_url": "https://www.pdxpipeline.com/friday-night-magic-the-gathering-the-eastburn-public-house-2026/",
+        "source_type": "rss",
+        "description": "Shuffle up and let the Magic happen. Come sit in with us for Friday Night Magic. A night of games, good energy, and people who truly support the community.\nThe post Friday Night Magic: The Gathering @ The EastBurn Public House | Join the Battle! first appeared on PDX Pipeline.\nThe post Friday Night Magic: The Gathering @ The EastBurn Public House | Join the Battle! appeared first on PDX Pipeline.",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "win-tickets-34-2026-portland-spring-home-and-garden-show-portland-expo-center-showcase-gardens-floral-fashion-show-chef-demos-2026-02-03T19:54:25.000Z",
+        "title": "Win Tickets ($34): 2026 Portland Spring Home and Garden Show @ Portland Expo Center | Showcase Gardens, Floral Fashion Show, Chef Demos",
+        "venue_id": "pdx-pipeline",
+        "start_datetime": "2026-02-03T19:54:25.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Link",
+        "age_restriction": "See Link",
+        "source_url": "https://www.pdxpipeline.com/2026-portland-spring-home-and-garden-show-portland-expo-center-02-2026/",
+        "source_type": "rss",
+        "description": "For decades, this beloved event has brought together garden enthusiasts, design lovers, homeowners, remodelers, and local makers, offering fresh ideas, expert advice, and the latest home and garden trends for every skill level.\nThe post Win Tickets ($34): 2026 Portland Spring Home and Garden Show @ Portland Expo Center | Showcase Gardens, Floral Fashion Show, Chef Demos first appeared on PDX Pipeline.\nThe post Win Tickets ($34): 2026 Portland Spring Home and Garden Show @ Portland Expo Center | Showcase Gardens, Floral Fashion Show, Chef Demos appeared first on PDX Pipeline.",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "weird-portland-pub-tour-valentines-edition-in-se-portland-great-beer-weird-stories-2026-02-03T19:23:13.000Z",
+        "title": "Weird Portland Pub Tour: Valentine’s Edition in SE Portland | Great Beer + Weird Stories",
+        "venue_id": "pdx-pipeline",
+        "start_datetime": "2026-02-03T19:23:13.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Link",
+        "age_restriction": "See Link",
+        "source_url": "https://www.pdxpipeline.com/weird-portland-pub-tour-valentines-edition-in-se-portland-02-2026/",
+        "source_type": "rss",
+        "description": "Looking for a Valentine’s outing that’s anything but ordinary? This is the tour for people who love great beer, weird stories, and Portland’s wonderfully offbeat personality.\nThe post Weird Portland Pub Tour: Valentine’s Edition in SE Portland | Great Beer + Weird Stories first appeared on PDX Pipeline.\nThe post Weird Portland Pub Tour: Valentine’s Edition in SE Portland | Great Beer + Weird Stories appeared first on PDX Pipeline.",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "heartbreakers-a-draglesque-love-story-echo-theater-company-love-lust-inspired-dragburlesque-2026-02-02T22:55:28.000Z",
+        "title": "Heartbreakers: A Draglesque Love Story @ Echo Theater Company | Love & Lust Inspired Drag/Burlesque",
+        "venue_id": "pdx-pipeline",
+        "start_datetime": "2026-02-02T22:55:28.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Link",
+        "age_restriction": "See Link",
+        "source_url": "https://www.pdxpipeline.com/heartbreakers-a-draglesque-love-story-echo-theater-company-02-2026/",
+        "source_type": "rss",
+        "description": "RAE presents this ICONIC Love & Lust Inspired Draglesque Showcase.\nThe post Heartbreakers: A Draglesque Love Story @ Echo Theater Company | Love & Lust Inspired Drag/Burlesque first appeared on PDX Pipeline.\nThe post Heartbreakers: A Draglesque Love Story @ Echo Theater Company | Love & Lust Inspired Drag/Burlesque appeared first on PDX Pipeline.",
+        "status": "published",
+        "is_manual_override": false
+      }
+    ],
+    "venues": [
+      {
+        "id": "pdx-pipeline",
+        "name": "PDX Pipeline",
+        "city": "Portland",
+        "events_source_url": "https://pdxpipeline.com/feed"
+      }
+    ]
+  }
+}
