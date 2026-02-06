@@ -38,7 +38,20 @@ async function main() {
   const scrapedTimestamp = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
 
   // 1. Run Adapters
-  for (const adapter of ADAPTERS) {
+  const args = process.argv.slice(2);
+  const sourceArg = args.find(arg => arg.startsWith('--source='));
+  const targetSource = sourceArg ? sourceArg.split('=')[1].toLowerCase() : null;
+
+  const activeAdapters = ADAPTERS.filter(a => {
+      if (!targetSource) return true;
+      return a.name.toLowerCase().includes(targetSource);
+  });
+
+  if (targetSource) {
+      console.log(`🔍 Filtering adapters by "${targetSource}". Found ${activeAdapters.length} match(es).`);
+  }
+
+  for (const adapter of activeAdapters) {
     try {
       console.log(`📦 Running Adapter: ${adapter.name}...`);
       const data = await adapter.fetchAndNormalize();

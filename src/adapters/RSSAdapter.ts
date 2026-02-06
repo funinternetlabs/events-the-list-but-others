@@ -30,7 +30,11 @@ export class RSSAdapter implements BaseAdapter {
     const venuesMap = new Map<string, Venue>();
 
     try {
-      const feed = await this.parser.parseURL(this.sourceUrl);
+      const { fetchWithCache } = await import('../utils/fetchUtils.js');
+      // Fetch raw XML first with caching
+      const xml = await fetchWithCache(this.sourceUrl, this.name, 'xml');
+
+      const feed = await this.parser.parseString(xml);
       console.log(`   Found ${feed.items.length} items in feed: ${feed.title}`);
 
       for (const item of feed.items) {

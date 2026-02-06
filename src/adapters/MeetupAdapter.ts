@@ -24,10 +24,8 @@ export class MeetupAdapter implements BaseAdapter {
   async fetchAndNormalize(): Promise<NormalizedData> {
     console.log(`Fetching Meetup: ${this.sourceUrl}...`);
     
-    // 1. Fetch HTML
-    // Note: detailed caching logic omitted for brevity, but could be added like in HTMLScraper
-    const response = await fetch(this.sourceUrl);
-    const html = await response.text();
+    const { fetchWithCache } = await import('../utils/fetchUtils.js');
+    const html = await fetchWithCache(this.sourceUrl, this.name, 'html');
     
     const dom = new JSDOM(html);
     const doc = dom.window.document;
