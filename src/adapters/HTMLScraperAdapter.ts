@@ -1,6 +1,6 @@
 import { JSDOM } from 'jsdom';
-import { BaseAdapter } from './BaseAdapter.js';
-import { Event, Venue, EventCategory, SourceType } from '../types/index.js';
+import type { BaseAdapter } from './BaseAdapter.js';
+import type { Event, Venue, EventCategory, SourceType } from '../types/index.js';
 import { generateEventId, inferCategory, normalizePrice } from '../utils/normalize.js';
 
 export interface ScraperSelectors {
@@ -36,9 +36,37 @@ export class HTMLScraperAdapter implements BaseAdapter {
   async fetchAndNormalize(): Promise<{ events: Event[]; venues: Venue[] }> {
     console.log(`Fetching ${this.sourceUrl}...`);
     
-    // 1. Fetch HTML
-    const response = await fetch(this.sourceUrl);
-    const html = await response.text();
+    // 1. Fetch HTML (with Cache)
+    let html = '';
+    const cacheDir = 'data/cache';
+    const cacheFile = `${cacheDir}/${this.name.toLowerCase()}.html`;
+    // Simple dev cache: If file exists, use it. To refresh, delete the file.
+    // In future we can add time-based expiry or ENV var bypass.
+    const useCache = process.env.NO_CACHE !== 'true'; 
+
+    try {
+        if (useCache) {
+            const fs = await import('fs-extra');
+            if (await fs.pathExists(cacheFile)) {
+                console.log(`   ⚡️ Cache hit: ${cacheFile}`);
+                html = await fs.readFile(cacheFile, 'utf-8');
+            }
+        }
+    } catch (e) { console.warn('Cache read check failed', e); }
+
+    if (!html) {
+        const response = await fetch(this.sourceUrl);
+        html = await response.text();
+        
+        // Save to cache
+        try {
+            const fs = await import('fs-extra');
+            await fs.ensureDir(cacheDir);
+            await fs.writeFile(cacheFile, html);
+            console.log(`   💾 Saved to cache: ${cacheFile}`);
+        } catch (e) { console.error('Failed to write cache', e); }
+    }
+
     const dom = new JSDOM(html);
     const doc = dom.window.document;
 

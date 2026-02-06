@@ -1,4 +1,4 @@
-import { NormalizedData } from '../types/index.js';
+import type { NormalizedData } from '../types/index.js';
 
 export interface BaseAdapter {
   name: string;

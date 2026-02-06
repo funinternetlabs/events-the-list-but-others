@@ -1,0 +1,403 @@
+{
+  "meta": {
+    "adapter": "Kiln",
+    "scraped_at": "2026-02-06T02:53:33.391Z",
+    "source_url": "https://kiln.com/communities/portland/"
+  },
+  "data": {
+    "events": [
+      {
+        "id": "squats-club-2026-02-02T08:00:00.000Z",
+        "title": "Squats Club",
+        "venue_id": "kiln-portland",
+        "start_datetime": "2026-02-02T08:00:00.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Source",
+        "age_restriction": "See Source",
+        "source_url": "https://kiln.com/communities/portland/",
+        "source_type": "html",
+        "description": "20-min midday workout blitz!  Bodyweight squats + posture strength on Feb. 2nd and Feb. 9th at 12:15pm in the theater. Wear your regular clothes and your desk body will thank you. Hope to see you there!",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "meditation-with-jake-ferriero-2026-02-05T08:00:00.000Z",
+        "title": "Meditation with Jake Ferriero",
+        "venue_id": "kiln-portland",
+        "start_datetime": "2026-02-05T08:00:00.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Source",
+        "age_restriction": "See Source",
+        "source_url": "https://kiln.com/communities/portland/",
+        "source_type": "html",
+        "description": "Join us for a 15 min guided meditation done seated or lying down. We will practice mindfulness techniques including body scan, noting, visualization, and more!",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "run-club-2026-02-05T08:00:00.000Z",
+        "title": "Run Club",
+        "venue_id": "kiln-portland",
+        "start_datetime": "2026-02-05T08:00:00.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Source",
+        "age_restriction": "See Source",
+        "source_url": "https://kiln.com/communities/portland/",
+        "source_type": "html",
+        "description": "They head out shortly after 3 PM on Thursdays! Meet out front of the main entrance, stretch for 10mins, then leave for an enjoyable 3-5 mile jaunt at a conversational pace through some of Portland's lovely neighborhoods, finishing @ Kiln.",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "squats-club-2026-02-09T08:00:00.000Z",
+        "title": "Squats Club",
+        "venue_id": "kiln-portland",
+        "start_datetime": "2026-02-09T08:00:00.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Source",
+        "age_restriction": "See Source",
+        "source_url": "https://kiln.com/communities/portland/",
+        "source_type": "html",
+        "description": "20-min midday workout blitz!  Bodyweight squats + posture strength on Feb. 2nd and Feb. 9th at 12:15pm in the theater. Wear your regular clothes and your desk body will thank you. Hope to see you there!",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "howdy-coffee-2026-02-10T08:00:00.000Z",
+        "title": "Howdy Coffee",
+        "venue_id": "kiln-portland",
+        "start_datetime": "2026-02-10T08:00:00.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Source",
+        "age_restriction": "See Source",
+        "source_url": "https://kiln.com/communities/portland/",
+        "source_type": "html",
+        "description": "Your favorite coffee shop is coming back to Kiln! Howdy Coffee will be setting up their mobile specialty coffee cart in the kitchen. Come enjoy some coffee with the Kiln community!",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "open-office-hours-darren-rankin-financial-advisor-edward-jones-2026-02-11T08:00:00.000Z",
+        "title": "Open Office Hours: Darren Rankin, Financial Advisor | Edward Jones",
+        "venue_id": "kiln-portland",
+        "start_datetime": "2026-02-11T08:00:00.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Source",
+        "age_restriction": "See Source",
+        "source_url": "https://kiln.com/communities/portland/",
+        "source_type": "html",
+        "description": "Join for a free 1-on-1 financial planning sessions with Darren, a financial advisor who specializes in helping small business owners and individuals at every stage of life get confident about their money.  Thinking about: Rolling over an old 401(k)? Building a personalized financial plan? Supporting aging parents while planning your own future? Consolidating accounts or mapping out retirement strategies?  This is your chance to get expert guidance—no pressure, just helpful conversations.  To reserve a spot or send questions ahead of time, reach out to Darren directly. Email: Darren.Rankin@edwardjones.com Prefer to be spontaneous? Stop by!",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "new-member-lunch-2026-02-11T08:00:00.000Z",
+        "title": "New Member Lunch!",
+        "venue_id": "kiln-portland",
+        "start_datetime": "2026-02-11T08:00:00.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Source",
+        "age_restriction": "See Source",
+        "source_url": "https://kiln.com/communities/portland/",
+        "source_type": "html",
+        "description": "Calling all NEW MEMBERS! We have a New Members Lunch coming up soon that we'd love for you to join. This is a casual, welcoming space just for our newest members to get to know each other, ask questions, and learn more about making the most of your membership.  When: Wednesday, February 11th, 12:00pm 1:00pm Where: The Kitchen!  Come with your questions, curiosities, or just an appetite! Lunch will be provided. Current members are also welcome to stop by and say hi!",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "spanish-club-2026-02-12T08:00:00.000Z",
+        "title": "Spanish Club",
+        "venue_id": "kiln-portland",
+        "start_datetime": "2026-02-12T08:00:00.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Source",
+        "age_restriction": "See Source",
+        "source_url": "https://kiln.com/communities/portland/",
+        "source_type": "html",
+        "description": "A monthly meetup for Kiln members to practice Spanish through loosely structured activities and conversation. Open to those of all proficiency levels!",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "massage-break-with-house-nine-2026-02-12T08:00:00.000Z",
+        "title": "Massage Break with House Nine",
+        "venue_id": "kiln-portland",
+        "start_datetime": "2026-02-12T08:00:00.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Source",
+        "age_restriction": "See Source",
+        "source_url": "https://docs.google.com/spreadsheets/d/1316xo3J7RpI478tpD7gm_5ZE8RH3L3PA8ol57oYRRYQ/edit?gid=669352241#gid=669352241",
+        "source_type": "html",
+        "description": "House Nine Wellness will be offering complimentary 10-minute massages for the Kiln community in the theater. Spots are limited—sign up by clicking the Read More section. Enjoy!",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "run-club-2026-02-12T08:00:00.000Z",
+        "title": "Run Club",
+        "venue_id": "kiln-portland",
+        "start_datetime": "2026-02-12T08:00:00.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Source",
+        "age_restriction": "See Source",
+        "source_url": "https://kiln.com/communities/portland/",
+        "source_type": "html",
+        "description": "They head out shortly after 3 PM on Thursdays! Meet out front of the main entrance, stretch for 10mins, then leave for an enjoyable 3-5 mile jaunt at a conversational pace through some of Portland's lovely neighborhoods, finishing @ Kiln.",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "we-are-cyclists-film-premiere-2026-02-12T08:00:00.000Z",
+        "title": "We Are Cyclists - Film Premiere",
+        "venue_id": "kiln-portland",
+        "start_datetime": "2026-02-12T08:00:00.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Source",
+        "age_restriction": "See Source",
+        "source_url": "https://luma.com/jok3trtf",
+        "source_type": "html",
+        "description": "​Introducing the next chapter of All Bodies on Bikes and the movement it inspired.  Join All Bodies on Bikes and SHIMANO for the world premiere of our new film, We Are Cyclists: The All Bodies on Bikes Story.  ​After the film, stick around for a live podcast recording of the All Bodies on Bikes podcast, with organization co-founders Marley Blonsky and Kailey Kornhauser, SHIMANO Brand Manager Nick Legan, and the film's director, Robin Sansom.  Please purchase ticket by clicking into the Read More section!",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "diy-flower-bar-2026-02-13T08:00:00.000Z",
+        "title": "DIY Flower Bar",
+        "venue_id": "kiln-portland",
+        "start_datetime": "2026-02-13T08:00:00.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Source",
+        "age_restriction": "See Source",
+        "source_url": "https://kiln.com/communities/portland/",
+        "source_type": "html",
+        "description": "Join us in the kitchen as we craft personalized flower arrangements. We'll provide everything you need to create a unique bouquet!",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "metro-hub-office-hours-2026-02-17T08:00:00.000Z",
+        "title": "Metro Hub Office Hours",
+        "venue_id": "kiln-portland",
+        "start_datetime": "2026-02-17T08:00:00.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Source",
+        "age_restriction": "See Source",
+        "source_url": "https://kiln.com/communities/portland/",
+        "source_type": "html",
+        "description": "Hosted by Lulu Dawson, Hub Navigator, Metro Region Innovation Hub  Lulu Dawson is a Hub Navigator at the Metro Region Innovation Hub, a regional organization supporting entrepreneurs across industries and at every stage of business. The Hub helps founders navigate the startup ecosystem by connecting them to relevant programs, mentors, funding pathways, and community resources across the Portland metro region.  As a navigator, Lulu works one-on-one with founders to understand where they are, surface what they need most right now, and connect them to the right people, resources, and opportunities to move forward. These office hours are designed to help founders gain clarity, reduce overwhelm, and leave knowing their next best steps.  Office hours are not advisory sessions — they are focused on navigation, connection, and ecosystem support.  What You Can Use Office Hours For:  Founders come to office hours to get connected around: Clarifying their stage and immediate priorities Understanding which resources or programs fit their needs Navigating funding pathways, grants, and accelerators Connecting to mentors, advisors, and service providers Finding relevant communities, networks, and peer support Exploring customer, traction, or growth challenges Navigating pivots, transitions, or moments of uncertainty Mapping realistic next steps when things feel unclear  Who Should Attend:  Kiln members and founders across any industry or stage who want help navigating what’s available, who to talk to next, and how to move forward with more clarity and confidence.  Come with questions. Leave with direction and momentum.",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "community-dumpling-lunch-2026-02-17T08:00:00.000Z",
+        "title": "Community Dumpling Lunch",
+        "venue_id": "kiln-portland",
+        "start_datetime": "2026-02-17T08:00:00.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Source",
+        "age_restriction": "See Source",
+        "source_url": "https://kiln.com/communities/portland/",
+        "source_type": "html",
+        "description": "We're celebrating Portland Dumpling Week! Meet at the front desk to walk (or drive) together, or meet us there if you prefer. See you for dumplings!  Restaurant TBD - Awaiting Dumpling week info release!",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "kiln-x-orangetheory-fitness-workout-session-2026-02-18T08:00:00.000Z",
+        "title": "Kiln x Orangetheory Fitness: Workout Session",
+        "venue_id": "kiln-portland",
+        "start_datetime": "2026-02-18T08:00:00.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Source",
+        "age_restriction": "See Source",
+        "source_url": "https://kiln.com/communities/portland/",
+        "source_type": "html",
+        "description": "Join us for an exclusive one-hour private workout class just for Kiln members at Orangetheory Fitness!  The class will be held at the Goat Blocks location, just a short walk from Kiln. We'll meet at the front desk at 11:30pm before heading over together. Class runs from 12:00–1:00pm.  To reserve your spot, please email alyse.p@kiln.com. Once confirmed, all new participants will need to complete an intake form. Hope to see you there!",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "meditation-with-jake-ferriero-2026-02-19T08:00:00.000Z",
+        "title": "Meditation with Jake Ferriero",
+        "venue_id": "kiln-portland",
+        "start_datetime": "2026-02-19T08:00:00.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Source",
+        "age_restriction": "See Source",
+        "source_url": "https://kiln.com/communities/portland/",
+        "source_type": "html",
+        "description": "Join us for a 15 min guided meditation done seated or lying down. We will practice mindfulness techniques including body scan, noting, visualization, and more!",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "run-club-2026-02-19T08:00:00.000Z",
+        "title": "Run Club",
+        "venue_id": "kiln-portland",
+        "start_datetime": "2026-02-19T08:00:00.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Source",
+        "age_restriction": "See Source",
+        "source_url": "https://kiln.com/communities/portland/",
+        "source_type": "html",
+        "description": "They head out shortly after 3 PM on Thursdays! Meet out front of the main entrance, stretch for 10mins, then leave for an enjoyable 3-5 mile jaunt at a conversational pace through some of Portland's lovely neighborhoods, finishing @ Kiln.",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "craft-mixology-class-brought-to-you-by-straightaway-and-accompani-2026-02-19T08:00:00.000Z",
+        "title": "Craft Mixology Class: Brought to you by Straightaway and Accompani",
+        "venue_id": "kiln-portland",
+        "start_datetime": "2026-02-19T08:00:00.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Source",
+        "age_restriction": "See Source",
+        "source_url": "https://www.eventbrite.com/e/craft-mixology-class-brought-to-you-by-straightaway-and-accompani-tickets-1981961082952?aff=oddtdtcreator",
+        "source_type": "html",
+        "description": "Get ready to shake, stir, and sip your way through a fun-filled evening at our Craft Mixology Class! Hosted by the experts at Straightaway, this in-person event will take place at, Kiln. Don't miss out on this unique opportunity to elevate your mixology skills, it's Negroni Night!  To secure your spot please RSVP by clicking into the Read More section. If you want to bring a friend, partner, or colleague to the class you're more than welcome to just ensure you reserve their spot on Eventbrite!",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "pdx-code-coffee-2026-02-20T08:00:00.000Z",
+        "title": "PDX Code & Coffee",
+        "venue_id": "kiln-portland",
+        "start_datetime": "2026-02-20T08:00:00.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Source",
+        "age_restriction": "See Source",
+        "source_url": "https://kiln.com/communities/portland/",
+        "source_type": "html",
+        "description": "Code and Coffee is an inclusive, informal co-working session. Drink some coffee, bring your laptop, and have engaging conversations.   This is a great opportunity to learn from others, share your knowledge, and possibly collaborate on side projects, online courses, or even your day-to-day work tasks.",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "leadership-coaching-pop-up-at-kiln-2026-02-23T08:00:00.000Z",
+        "title": "Leadership Coaching Pop-Up at Kiln",
+        "venue_id": "kiln-portland",
+        "start_datetime": "2026-02-23T08:00:00.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Source",
+        "age_restriction": "See Source",
+        "source_url": "https://form.everestwebdeals.co/?form=68d3dd55cfc81364e17af7078ddfb73d",
+        "source_type": "html",
+        "description": "Need clarity on a key decision or challenge?  Join Certified Leadership Coach Robynne Weaver for a free 30-minute session designed to help you think more clearly, lead more effectively, and take focused action toward your goals.  Whether you're navigating a transition, leading a team, or considering what's next in your career, this session offers practical support to help you move forward with confidence.  📍 The Atrium at Kiln, Portland | Held Monthly 🎯 Limited spots—sign up in the Read More section now 📩 Questions? Email coaching@robynneweaver.com  Please click the Read More Section to sign up for a session or email coaching@robynneweaver.com for more information.",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "watch-work-2026-02-24T08:00:00.000Z",
+        "title": "Watch & Work",
+        "venue_id": "kiln-portland",
+        "start_datetime": "2026-02-24T08:00:00.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Source",
+        "age_restriction": "See Source",
+        "source_url": "https://kiln.com/communities/portland/",
+        "source_type": "html",
+        "description": "Drop by the theater to get some work done with a movie in the background, or take a snack break and enjoy the show!  What movie you ask? You tell us! Place your vote in the jars in the Kitchen the week before!",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "meditation-with-jake-ferriero-2026-02-26T08:00:00.000Z",
+        "title": "Meditation with Jake Ferriero",
+        "venue_id": "kiln-portland",
+        "start_datetime": "2026-02-26T08:00:00.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Source",
+        "age_restriction": "See Source",
+        "source_url": "https://kiln.com/communities/portland/",
+        "source_type": "html",
+        "description": "Join us for a 15 min guided meditation done seated or lying down. We will practice mindfulness techniques including body scan, noting, visualization, and more!",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "run-club-2026-02-26T08:00:00.000Z",
+        "title": "Run Club",
+        "venue_id": "kiln-portland",
+        "start_datetime": "2026-02-26T08:00:00.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Source",
+        "age_restriction": "See Source",
+        "source_url": "https://kiln.com/communities/portland/",
+        "source_type": "html",
+        "description": "They head out shortly after 3 PM on Thursdays! Meet out front of the main entrance, stretch for 10mins, then leave for an enjoyable 3-5 mile jaunt at a conversational pace through some of Portland's lovely neighborhoods, finishing @ Kiln.",
+        "status": "published",
+        "is_manual_override": false
+      },
+      {
+        "id": "aprs-work-plant-bingo-2026-02-26T08:00:00.000Z",
+        "title": "Après Work: Plant Bingo",
+        "venue_id": "kiln-portland",
+        "start_datetime": "2026-02-26T08:00:00.000Z",
+        "categories": [
+          "General"
+        ],
+        "price_display": "See Source",
+        "age_restriction": "See Source",
+        "source_url": "https://kiln.com/communities/portland/",
+        "source_type": "html",
+        "description": "Join us for bingo with a twist—win plants for your desk, office, or home! Hang out with fellow Kiln members over food and drinks. We hope to see you there!",
+        "status": "published",
+        "is_manual_override": false
+      }
+    ],
+    "venues": [
+      {
+        "id": "kiln-portland",
+        "name": "Kiln Portland",
+        "city": "Portland",
+        "events_source_url": "https://kiln.com/communities/portland/"
+      }
+    ]
+  }
+}

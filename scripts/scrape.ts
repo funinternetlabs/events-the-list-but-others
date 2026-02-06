@@ -1,13 +1,14 @@
 import fs from 'fs-extra';
 import path from 'path';
 import { MarkdownAdapter } from '../src/adapters/MarkdownAdapter.js';
-import { BaseAdapter } from '../src/adapters/BaseAdapter.js';
+import type { BaseAdapter } from '../src/adapters/BaseAdapter.js';
+import { kilnScraper } from './scrapers/kiln.js';
 import type { Event, Venue, NormalizedData } from '../src/types/index.js';
 
 // Configuration
 const ADAPTERS: BaseAdapter[] = [
   new MarkdownAdapter(),
-  // eventually: new HTMLScraperAdapter(meetupConfig), etc.
+  kilnScraper,
 ];
 
 const STAGING_DIR = path.resolve('data/scraped');
